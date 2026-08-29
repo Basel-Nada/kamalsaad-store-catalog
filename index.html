@@ -104,6 +104,41 @@
 
 <body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col transition-colors duration-200 antialiased selection:bg-indigo-500 selection:text-white pb-14 sm:pb-0">
 
+  <!-- ================= TOP DEVELOPER BAR (ABOVE EVERYTHING) ================= -->
+  <div class="bg-slate-900 text-white border-b border-indigo-900/40 relative z-50">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-1.5 flex items-center justify-between gap-2">
+      
+      <!-- Developer Name -->
+      <div class="flex items-center gap-1.5 shrink-0">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-slate-400 text-[11px] hidden sm:inline">برمجة وتطوير:</span>
+        <a href="https://www.facebook.com/basel.mohamednada" target="_blank" rel="noopener noreferrer" 
+           class="font-black text-white hover:text-indigo-300 transition text-[11px] sm:text-xs flex items-center gap-1">
+          <span class="bg-indigo-600/70 px-1.5 py-0.5 rounded text-[10px] text-indigo-200 font-bold">مطور</span>
+          <span>باسل ندا</span>
+        </a>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-1.5 shrink-0">
+        <!-- Facebook Page Button -->
+        <a href="https://www.facebook.com/profile.php?id=100063923408389" target="_blank" rel="noopener noreferrer" 
+           class="px-2.5 py-1 bg-blue-600 hover:bg-blue-700 text-white font-extrabold rounded-lg text-[10px] sm:text-xs transition flex items-center gap-1 shadow-xs active:scale-95">
+          <i class="fa-solid fa-flag text-[9px] sm:text-[10px]"></i>
+          <span>البيدج الرسمية</span>
+        </a>
+
+        <!-- Personal Facebook Button -->
+        <a href="https://www.facebook.com/basel.mohamednada" target="_blank" rel="noopener noreferrer" 
+           class="px-2.5 py-1 bg-[#1877F2]/20 hover:bg-[#1877F2] text-blue-200 hover:text-white border border-[#1877F2]/40 font-bold rounded-lg text-[10px] sm:text-xs transition flex items-center gap-1 active:scale-95">
+          <i class="fa-brands fa-facebook text-xs text-[#1877F2]"></i>
+          <span>الفيسبوك</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
   <!-- ================= TOP NAVBAR ================= -->
   <header class="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800 shadow-xs">
     <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
@@ -162,32 +197,6 @@
       </div>
     </div>
   </header>
-
-  <!-- ================= DEVELOPER RIBBON BANNER ================= -->
-  <div class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white text-xs border-b border-indigo-900/50 shadow-inner">
-    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2 flex flex-wrap items-center justify-between gap-2">
-      <div class="flex items-center gap-2">
-        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span class="text-slate-300 font-medium">تصميم وبرمجة:</span>
-        <a href="https://www.facebook.com/basel.mohamednada" target="_blank" rel="noopener noreferrer" class="font-black text-indigo-300 hover:text-white transition tracking-wide flex items-center gap-1">
-          <span>باسل ندا (Basel Nada)</span>
-        </a>
-      </div>
-      <div class="flex items-center gap-2.5 sm:gap-3 text-slate-400">
-        <a href="https://www.facebook.com/profile.php?id=100063923408389" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 font-bold transition flex items-center gap-1">
-          <i class="fa-solid fa-flag text-xs"></i>
-          <span>البيدج الرسمية</span>
-        </a>
-        <span>•</span>
-        <a href="https://www.facebook.com/basel.mohamednada" target="_blank" rel="noopener noreferrer" class="text-indigo-300 hover:text-white transition flex items-center gap-1">
-          <i class="fa-brands fa-facebook text-sm text-[#1877F2]"></i>
-          <span class="hidden sm:inline">فيسبوك</span>
-        </a>
-        <span>•</span>
-        <span class="text-[11px] text-amber-400/90 font-semibold">تحديث تلقائي سحابي مستمر ⚡</span>
-      </div>
-    </div>
-  </div>
 
   <!-- ================= MAIN CONTENT ================= -->
   <main class="max-w-7xl mx-auto px-2.5 sm:px-6 lg:px-8 py-3 sm:py-6 flex-grow w-full">
