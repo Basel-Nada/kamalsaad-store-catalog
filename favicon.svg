@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="kmsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <filter id="kmsShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#4f46e5" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded Background Container -->
+  <rect x="5" y="5" width="90" height="90" rx="24" fill="url(#kmsGrad)" filter="url(#kmsShadow)" />
+  
+  <!-- Stylized Shopping Bag & Pen Shape -->
+  <path d="M32 38 C32 28, 40 20, 50 20 C60 20, 68 28, 68 38" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none" />
+  
+  <!-- Bag Body / Notebook -->
+  <rect x="24" y="36" width="52" height="44" rx="10" fill="#ffffff" />
+  
+  <!-- KMS Lettering / Accent Ribbon -->
+  <path d="M35 48 L43 62 L50 52 L57 62 L65 48" stroke="#4f46e5" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="50" cy="70" r="3.5" fill="#f59e0b" />
+</svg>

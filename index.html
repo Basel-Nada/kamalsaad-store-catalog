@@ -2,9 +2,13 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>كتالوج منتجات كمال سعد | KMS Store Catalog</title>
   
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate icon" href="favicon.svg">
+
   <!-- Google Fonts: Cairo & Tajawal -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,8 +34,6 @@
               500: '#4f46e5',
               600: '#4338ca',
               700: '#3730a3',
-              800: '#312e81',
-              900: '#1e1b4b',
               accent: '#f59e0b',
               emerald: '#10b981',
             }
@@ -45,22 +47,23 @@
     * {
       font-family: 'Cairo', 'Tajawal', sans-serif;
       box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
     }
     
-    /* Smooth custom scrollbars */
+    /* Custom scrollbars */
     ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
+      width: 6px;
+      height: 6px;
     }
     ::-webkit-scrollbar-track {
-      background: rgba(0, 0, 0, 0.05);
+      background: transparent;
     }
     ::-webkit-scrollbar-thumb {
       background: #cbd5e1;
-      border-radius: 4px;
+      border-radius: 99px;
     }
     .dark ::-webkit-scrollbar-thumb {
-      background: #475569;
+      background: #334155;
     }
     
     .line-clamp-2 {
@@ -70,17 +73,14 @@
       overflow: hidden;
     }
     
-    .aspect-card-img {
-      aspect-ratio: 1 / 1;
-      object-fit: contain;
-    }
-    
     .card-hover-effect {
-      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .card-hover-effect:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 14px 28px -4px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    @media (hover: hover) {
+      .card-hover-effect:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+      }
     }
     
     /* Hide spin buttons in number inputs */
@@ -89,60 +89,73 @@
       -webkit-appearance: none; 
       margin: 0; 
     }
+
+    /* Gradient Dev Badge */
+    .dev-gradient-border {
+      background: linear-gradient(135deg, #4f46e5 0%, #ec4899 50%, #f59e0b 100%);
+      padding: 1.5px;
+      border-radius: 1rem;
+    }
   </style>
 
   <!-- Load products dataset -->
   <script src="products.js"></script>
 </head>
 
-<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col transition-colors duration-200">
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col transition-colors duration-200 antialiased selection:bg-indigo-500 selection:text-white pb-14 sm:pb-0">
 
-  <!-- ================= NAVBAR ================= -->
-  <header class="sticky top-0 z-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800 shadow-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16 sm:h-20">
+  <!-- ================= TOP NAVBAR ================= -->
+  <header class="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800 shadow-xs">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-14 sm:h-20">
         
         <!-- Logo & Title -->
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-700 to-amber-500 flex items-center justify-center text-white shadow-md shadow-indigo-500/20">
-            <i class="fa-solid fa-boxes-stacked text-lg sm:text-xl"></i>
+        <div class="flex items-center gap-2 sm:gap-3">
+          <!-- Custom SVG Logo -->
+          <div class="w-9 h-9 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-700 to-amber-500 flex items-center justify-center text-white shadow-md shadow-indigo-500/20 shrink-0">
+            <svg class="w-5 h-5 sm:w-7 sm:h-7" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30 38 C30 26, 40 18, 50 18 C60 18, 70 26, 70 38" stroke="#ffffff" stroke-width="7" stroke-linecap="round" fill="none" />
+              <rect x="22" y="36" width="56" height="46" rx="10" fill="#ffffff" />
+              <path d="M34 50 L42 64 L50 54 L58 64 L66 50" stroke="#4f46e5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+              <circle cx="50" cy="72" r="3.5" fill="#f59e0b" />
+            </svg>
           </div>
           <div>
-            <div class="flex items-center gap-2">
-              <h1 class="text-lg sm:text-2xl font-black tracking-tight text-slate-900 dark:text-white">
-                متجر كمال سعد
+            <div class="flex items-center gap-1.5">
+              <h1 class="text-base sm:text-2xl font-black tracking-tight text-slate-900 dark:text-white leading-none">
+                كمال سعد
               </h1>
-              <span class="px-2 py-0.5 text-xs font-bold bg-indigo-100 text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-300 rounded-full border border-indigo-200/50 dark:border-indigo-700/50">
+              <span class="px-1.5 py-0.5 text-[10px] sm:text-xs font-bold bg-indigo-100 text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-300 rounded-full border border-indigo-200/50 dark:border-indigo-700/50">
                 كتالوج كامل
               </span>
             </div>
-            <p class="text-xs text-slate-500 dark:text-slate-400 hidden sm:block">
-              تصفح، بحث، وفلترة أكثر من <span id="headerTotalCount" class="font-bold text-indigo-600 dark:text-indigo-400">1,900+</span> صنف ومنتج
+            <p class="text-[11px] text-slate-500 dark:text-slate-400 hidden sm:block mt-0.5">
+              تصفح، بحث وفلترة أكثر من <span id="headerTotalCount" class="font-bold text-indigo-600 dark:text-indigo-400">1,927</span> صنف
             </p>
           </div>
         </div>
 
         <!-- Right Quick Actions -->
-        <div class="flex items-center gap-2 sm:gap-3">
-          <!-- Live Kamalsaad Store Link -->
+        <div class="flex items-center gap-1.5 sm:gap-2.5">
+          <!-- Official Store Link -->
           <a href="https://www.kamalsaad.com/" target="_blank" rel="noopener noreferrer" 
-             class="hidden md:inline-flex items-center gap-2 px-3 py-1.5 text-xs font-semibold text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg transition" 
-             title="زيارة المتجر الإلكتروني الرسمي">
+             class="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-xl transition" 
+             title="زيارة المتجر الإلكتروني الأصلي">
             <i class="fa-solid fa-arrow-up-right-from-square text-amber-500"></i>
             <span>المتجر الرسمي</span>
           </a>
 
           <!-- Cart / Order Draft Drawer Trigger -->
-          <button id="btnOpenCart" class="relative p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-indigo-50 hover:text-indigo-600 dark:hover:bg-slate-700 transition" title="قائمة الطلب / المنتجات المحددة">
-            <i class="fa-solid fa-cart-shopping text-base sm:text-lg"></i>
-            <span id="cartCountBadge" class="absolute -top-1 -right-1 w-5 h-5 bg-amber-500 text-white font-bold text-[10px] rounded-full flex items-center justify-center shadow hidden">
+          <button id="btnOpenCart" class="relative p-2 sm:p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-indigo-50 hover:text-indigo-600 dark:hover:bg-slate-700 transition" title="قائمة الطلب">
+            <i class="fa-solid fa-cart-shopping text-sm sm:text-lg"></i>
+            <span id="cartCountBadge" class="absolute -top-1 -right-1 w-4 h-4 sm:w-5 sm:h-5 bg-amber-500 text-white font-bold text-[9px] sm:text-[10px] rounded-full flex items-center justify-center shadow hidden">
               0
             </span>
           </button>
 
           <!-- Dark / Light Mode Toggle -->
-          <button id="themeToggle" class="p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition" title="تبديل الوضع الليلي / النهاري">
-            <i id="themeIcon" class="fa-solid fa-moon text-base sm:text-lg"></i>
+          <button id="themeToggle" class="p-2 sm:p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition" title="تبديل الوضع">
+            <i id="themeIcon" class="fa-solid fa-moon text-sm sm:text-lg"></i>
           </button>
         </div>
 
@@ -150,232 +163,260 @@
     </div>
   </header>
 
-  <!-- ================= MAIN CONTENT ================= -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-grow w-full">
+  <!-- ================= DEVELOPER RIBBON BANNER ================= -->
+  <div class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white text-xs border-b border-indigo-900/50 shadow-inner">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2 flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-slate-300 font-medium">تصميم وبرمجة:</span>
+        <span class="font-black text-indigo-300 tracking-wide">باسل ندا (Basel Nada)</span>
+      </div>
+      <div class="flex items-center gap-3 text-slate-400">
+        <a href="https://github.com/Basel-Nada" target="_blank" rel="noopener noreferrer" class="hover:text-white transition flex items-center gap-1">
+          <i class="fa-brands fa-github text-sm"></i>
+          <span class="hidden sm:inline">GitHub</span>
+        </a>
+        <span>•</span>
+        <span class="text-[11px] text-amber-400/90 font-semibold">تحديث تلقائي سحابي مستمر ⚡</span>
+      </div>
+    </div>
+  </div>
 
-    <!-- Hero Search & Filter Box -->
-    <div class="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 shadow-sm border border-slate-200/80 dark:border-slate-800 mb-6">
+  <!-- ================= MAIN CONTENT ================= -->
+  <main class="max-w-7xl mx-auto px-2.5 sm:px-6 lg:px-8 py-3 sm:py-6 flex-grow w-full">
+
+    <!-- Compact Search & Filter Box -->
+    <div class="bg-white dark:bg-slate-900 rounded-2xl p-3 sm:p-5 shadow-xs border border-slate-200/80 dark:border-slate-800 mb-4 sm:mb-6">
       
-      <!-- Top Row: Search Input + Category Selector + Sort -->
-      <div class="grid grid-cols-1 sm:grid-cols-12 gap-3 sm:gap-4 items-center">
-        
+      <!-- Top Row: Search Input + Mobile Filter Toggle -->
+      <div class="flex items-center gap-2">
         <!-- Search Input -->
-        <div class="sm:col-span-6 lg:col-span-5 relative">
-          <i class="fa-solid fa-magnifying-glass absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400"></i>
+        <div class="relative flex-grow">
+          <i class="fa-solid fa-magnifying-glass absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-xs sm:text-sm"></i>
           <input type="text" id="searchInput" 
-                 placeholder="ابحث باسم المنتج، الصنف، الماركة أو الكود..." 
-                 class="w-full pr-10 pl-10 py-2.5 sm:py-3 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-xl text-sm sm:text-base focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:focus:ring-indigo-400 outline-none transition placeholder:text-slate-400">
-          <button id="clearSearchBtn" class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1 hidden">
-            <i class="fa-solid fa-xmark text-sm"></i>
+                 placeholder="ابحث باسم المنتج، الماركة، أو القسم..." 
+                 class="w-full pr-9 pl-9 py-2 sm:py-2.5 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-xl text-xs sm:text-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:focus:ring-indigo-400 outline-none transition placeholder:text-slate-400">
+          <button id="clearSearchBtn" class="absolute left-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1 hidden">
+            <i class="fa-solid fa-xmark text-xs"></i>
           </button>
         </div>
 
-        <!-- Category Dropdown -->
-        <div class="sm:col-span-3 lg:col-span-4 relative">
-          <select id="categorySelect" class="w-full px-3 py-2.5 sm:py-3 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-xl text-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:focus:ring-indigo-400 outline-none transition appearance-none cursor-pointer">
-            <option value="">📂 كل الأقسام والتصنيفات (الكل)</option>
-          </select>
-          <i class="fa-solid fa-chevron-down absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none text-xs"></i>
-        </div>
-
-        <!-- Sort Selector -->
-        <div class="sm:col-span-3 lg:col-span-3 relative">
-          <select id="sortSelect" class="w-full px-3 py-2.5 sm:py-3 bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 rounded-xl text-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:focus:ring-indigo-400 outline-none transition appearance-none cursor-pointer">
-            <option value="default">✨ الترتيب الافتراضي</option>
-            <option value="price_asc">💵 السعر: من الأقل للأعلى</option>
-            <option value="price_desc">💰 السعر: من الأعلى للأقل</option>
-            <option value="title_asc">🔤 الاسم: أ - ي</option>
-            <option value="title_desc">🔤 الاسم: ي - أ</option>
-          </select>
-          <i class="fa-solid fa-arrow-down-wide-short absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none text-xs"></i>
-        </div>
-
+        <!-- Filter Collapse Toggle on Mobile -->
+        <button id="toggleFiltersBtn" class="sm:hidden px-3 py-2 bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 font-bold rounded-xl text-xs flex items-center gap-1 shrink-0 border border-indigo-100 dark:border-indigo-800/50">
+          <i class="fa-solid fa-sliders"></i>
+          <span>فلترة</span>
+        </button>
       </div>
 
       <!-- Quick Category Chips Bar -->
-      <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none" id="popularChipsContainer">
-        <span class="text-xs font-bold text-slate-400 shrink-0 ml-1 flex items-center gap-1">
-          <i class="fa-solid fa-fire text-amber-500"></i>
-          الأكثر طلباً:
-        </span>
+      <div class="mt-2.5 pt-2.5 border-t border-slate-100 dark:border-slate-800/80 flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none" id="popularChipsContainer">
         <!-- Popular chips injected dynamically -->
       </div>
 
-      <!-- Advanced Price Filters & View Controls (Collapsible) -->
-      <div class="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm">
-        
-        <!-- Price range filter inputs -->
-        <div class="flex items-center gap-2 flex-wrap">
-          <span class="font-bold text-slate-600 dark:text-slate-300 flex items-center gap-1">
-            <i class="fa-solid fa-filter-circle-dollar text-indigo-500"></i>
-            السعر:
-          </span>
-          <div class="flex items-center gap-1 bg-slate-50 dark:bg-slate-800 px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-700">
-            <span class="text-slate-400 text-xs">من</span>
-            <input type="number" id="minPriceInput" placeholder="0" class="w-16 bg-transparent text-center outline-none font-semibold text-slate-800 dark:text-slate-100">
-            <span class="text-slate-400 text-xs">ج.م</span>
-          </div>
-          <span class="text-slate-400">-</span>
-          <div class="flex items-center gap-1 bg-slate-50 dark:bg-slate-800 px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-700">
-            <span class="text-slate-400 text-xs">إلى</span>
-            <input type="number" id="maxPriceInput" placeholder="أقصى" class="w-16 bg-transparent text-center outline-none font-semibold text-slate-800 dark:text-slate-100">
-            <span class="text-slate-400 text-xs">ج.م</span>
-          </div>
-          <button id="resetFiltersBtn" class="px-2.5 py-1 text-xs text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 rounded-lg transition" title="إعادة تعيين كافة الفلاتر">
-            <i class="fa-solid fa-rotate-left ml-1"></i> إعادة ضبط
-          </button>
-        </div>
-
-        <!-- View Switcher & Per-Page Controls -->
-        <div class="flex items-center gap-3">
-          <!-- Page size selector -->
-          <div class="flex items-center gap-1 text-slate-500 dark:text-slate-400">
-            <span>عرض:</span>
-            <select id="pageSizeSelect" class="bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-2 py-1 text-xs font-semibold outline-none cursor-pointer">
-              <option value="24">24 صنف</option>
-              <option value="48" selected>48 صنف</option>
-              <option value="96">96 صنف</option>
-              <option value="all">الكل دفعة واحدة</option>
+      <!-- Advanced Filters (Collapsible on Mobile, Always visible on Desktop) -->
+      <div id="advancedFiltersBox" class="hidden sm:block mt-3 pt-3 border-t border-slate-100 dark:border-slate-800/80">
+        <div class="grid grid-cols-1 sm:grid-cols-12 gap-2.5 sm:gap-3 items-center">
+          
+          <!-- Category Dropdown -->
+          <div class="sm:col-span-4 relative">
+            <select id="categorySelect" class="w-full px-3 py-2 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs sm:text-sm focus:ring-2 focus:ring-indigo-500 outline-none transition appearance-none cursor-pointer">
+              <option value="">📂 كل الأقسام والتصنيفات (الكل)</option>
             </select>
+            <i class="fa-solid fa-chevron-down absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none text-[10px]"></i>
           </div>
 
-          <!-- Grid vs List Toggle -->
-          <div class="flex items-center bg-slate-100 dark:bg-slate-800 p-1 rounded-xl border border-slate-200/60 dark:border-slate-700">
-            <button id="viewGridBtn" class="p-1.5 px-2.5 rounded-lg bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-xs font-bold text-xs flex items-center gap-1 transition">
-              <i class="fa-solid fa-grip"></i>
-              <span class="hidden sm:inline">شبكة</span>
-            </button>
-            <button id="viewListBtn" class="p-1.5 px-2.5 rounded-lg text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 font-bold text-xs flex items-center gap-1 transition">
-              <i class="fa-solid fa-list"></i>
-              <span class="hidden sm:inline">قائمة</span>
+          <!-- Sort Selector -->
+          <div class="sm:col-span-4 relative">
+            <select id="sortSelect" class="w-full px-3 py-2 bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl text-xs sm:text-sm focus:ring-2 focus:ring-indigo-500 outline-none transition appearance-none cursor-pointer">
+              <option value="default">✨ الترتيب الافتراضي</option>
+              <option value="price_asc">💵 السعر: من الأقل للأعلى</option>
+              <option value="price_desc">💰 السعر: من الأعلى للأقل</option>
+              <option value="title_asc">🔤 الاسم: أ - ي</option>
+              <option value="title_desc">🔤 الاسم: ي - أ</option>
+            </select>
+            <i class="fa-solid fa-arrow-down-wide-short absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none text-[10px]"></i>
+          </div>
+
+          <!-- Price Min/Max Inputs -->
+          <div class="sm:col-span-4 flex items-center justify-between sm:justify-end gap-2">
+            <div class="flex items-center gap-1 bg-slate-50 dark:bg-slate-800 px-2 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs">
+              <span class="text-slate-400">سعر من</span>
+              <input type="number" id="minPriceInput" placeholder="0" class="w-12 bg-transparent text-center font-bold outline-none">
+              <span class="text-slate-400">-</span>
+              <span class="text-slate-400">إلى</span>
+              <input type="number" id="maxPriceInput" placeholder="أقصى" class="w-12 bg-transparent text-center font-bold outline-none">
+              <span class="text-slate-400">ج.م</span>
+            </div>
+            
+            <button id="resetFiltersBtn" class="p-2 text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 rounded-xl transition text-xs font-bold shrink-0" title="إعادة تعيين الفلاتر">
+              <i class="fa-solid fa-rotate-left"></i>
             </button>
           </div>
+
         </div>
-
       </div>
 
     </div>
 
     <!-- Active Results Stats Bar -->
-    <div class="flex items-center justify-between mb-4 px-1">
-      <div class="flex items-center gap-2">
-        <span class="text-sm sm:text-base font-bold text-slate-700 dark:text-slate-200">
-          المنتجات المعروضة:
-        </span>
-        <span id="resultsCountBadge" class="px-2.5 py-0.5 text-xs font-extrabold bg-indigo-600 text-white rounded-full">
+    <div class="flex items-center justify-between mb-3 px-1 text-xs">
+      <div class="flex items-center gap-1.5">
+        <span class="font-bold text-slate-600 dark:text-slate-300">المنتجات:</span>
+        <span id="resultsCountBadge" class="px-2 py-0.5 font-extrabold bg-indigo-600 text-white rounded-full text-[11px]">
           0
         </span>
-        <span id="activeFilterBadge" class="text-xs text-slate-500 dark:text-slate-400 hidden sm:inline"></span>
+        <span id="activeFilterBadge" class="text-[11px] text-slate-400 truncate max-w-[150px] sm:max-w-none"></span>
       </div>
 
-      <!-- Quick Export to CSV/Print -->
+      <!-- View Controls & Export -->
       <div class="flex items-center gap-2">
-        <button id="btnExportCSV" class="px-3 py-1 text-xs font-semibold bg-emerald-50 text-emerald-700 dark:bg-emerald-950/50 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800/60 rounded-lg hover:bg-emerald-100 transition flex items-center gap-1">
+        <!-- Page size selector (desktop) -->
+        <select id="pageSizeSelect" class="hidden sm:inline-block bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-2 py-1 text-[11px] font-bold outline-none cursor-pointer">
+          <option value="48" selected>48 صنف</option>
+          <option value="96">96 صنف</option>
+          <option value="all">عرض الكل</option>
+        </select>
+
+        <!-- Grid vs List Toggle -->
+        <div class="flex items-center bg-slate-200/70 dark:bg-slate-800 p-0.5 rounded-lg border border-slate-200/60 dark:border-slate-700">
+          <button id="viewGridBtn" class="p-1 px-2 rounded-md bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-xs font-bold text-[11px] flex items-center gap-1 transition">
+            <i class="fa-solid fa-grip"></i>
+          </button>
+          <button id="viewListBtn" class="p-1 px-2 rounded-md text-slate-500 dark:text-slate-400 font-bold text-[11px] flex items-center gap-1 transition">
+            <i class="fa-solid fa-list"></i>
+          </button>
+        </div>
+
+        <button id="btnExportCSV" class="hidden sm:flex px-2.5 py-1 text-[11px] font-bold bg-emerald-50 text-emerald-700 dark:bg-emerald-950/50 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800/60 rounded-lg hover:bg-emerald-100 transition items-center gap-1">
           <i class="fa-solid fa-file-excel"></i>
-          <span>تصدير النتائج (Excel/CSV)</span>
+          <span>تصدير</span>
         </button>
       </div>
     </div>
 
     <!-- ================= PRODUCT CONTAINER ================= -->
-    <!-- Grid View Container -->
-    <div id="productsGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+    <!-- 2 Columns on Mobile, 3-6 Columns on Desktop -->
+    <div id="productsGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2.5 sm:gap-4">
       <!-- Injected via JavaScript -->
     </div>
 
     <!-- List View Container (Hidden by default) -->
-    <div id="productsList" class="hidden flex-col gap-3">
+    <div id="productsList" class="hidden flex-col gap-2">
       <!-- Injected via JavaScript -->
     </div>
 
     <!-- Empty State Message -->
-    <div id="emptyState" class="hidden py-16 text-center">
-      <div class="w-20 h-20 bg-indigo-50 dark:bg-indigo-950/50 text-indigo-500 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl shadow-inner">
+    <div id="emptyState" class="hidden py-12 text-center">
+      <div class="w-16 h-16 bg-indigo-50 dark:bg-indigo-950/50 text-indigo-500 rounded-2xl flex items-center justify-center mx-auto mb-3 text-2xl">
         <i class="fa-solid fa-box-open"></i>
       </div>
-      <h3 class="text-lg font-bold text-slate-800 dark:text-slate-200 mb-1">لم يتم العثور على أي منتجات مطابقة!</h3>
-      <p class="text-sm text-slate-500 dark:text-slate-400 max-w-md mx-auto mb-4">
-        جرب تغيير كلمات البحث، إزالة بعض الفلاتر، أو اختيار قسم آخر.
+      <h3 class="text-base font-bold text-slate-800 dark:text-slate-200 mb-1">لم يتم العثور على أي نتائج!</h3>
+      <p class="text-xs text-slate-400 max-w-xs mx-auto mb-3">
+        جرب تغيير كلمات البحث أو اختيار قسم آخر.
       </p>
-      <button onclick="resetAllFilters()" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold rounded-xl transition shadow">
+      <button onclick="resetAllFilters()" class="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold rounded-xl transition shadow">
         إعادة ضبط البحث
       </button>
     </div>
 
     <!-- ================= PAGINATION ================= -->
-    <div id="paginationContainer" class="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-slate-200 dark:border-slate-800">
-      <div class="text-xs sm:text-sm text-slate-500 dark:text-slate-400" id="paginationInfo">
-        عرض 1 إلى 48 من إجمالي 1,927
-      </div>
-      <div class="flex items-center gap-1.5" id="paginationButtons">
-        <!-- Pagination items injected dynamically -->
+    <div id="paginationContainer" class="mt-6 flex flex-col sm:flex-row items-center justify-between gap-3 pt-4 border-t border-slate-200 dark:border-slate-800">
+      <div class="text-xs text-slate-500 dark:text-slate-400" id="paginationInfo"></div>
+      <div class="flex items-center gap-1" id="paginationButtons"></div>
+    </div>
+
+    <!-- ================= DEVELOPER SIGNATURE CARD (PROMINENT) ================= -->
+    <div class="mt-10 dev-gradient-border shadow-lg">
+      <div class="bg-white dark:bg-slate-900 rounded-[0.95rem] p-4 sm:p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        
+        <div class="flex items-center gap-3 text-center sm:text-right">
+          <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-indigo-600 to-pink-500 text-white flex items-center justify-center text-xl font-black shadow-md shrink-0">
+            BN
+          </div>
+          <div>
+            <div class="flex items-center justify-center sm:justify-start gap-2">
+              <h3 class="text-base font-black text-slate-900 dark:text-white">باسل ندا | Basel Nada</h3>
+              <span class="px-2 py-0.5 text-[10px] font-extrabold bg-indigo-50 text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-300 rounded-full">
+                مطور النظام
+              </span>
+            </div>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+              تم بناء الكتالوج بنظام مزامنة سحابي ذكي وتصميم متجاوب فائق السرعة
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <a href="https://github.com/Basel-Nada" target="_blank" rel="noopener noreferrer" 
+             class="px-3 py-2 bg-slate-900 dark:bg-slate-800 text-white hover:bg-indigo-600 rounded-xl text-xs font-bold transition flex items-center gap-1.5 shadow-xs">
+            <i class="fa-brands fa-github text-sm"></i>
+            <span>GitHub Profile</span>
+          </a>
+          <a href="https://github.com/Basel-Nada/kamalsaad-store-catalog" target="_blank" rel="noopener noreferrer" 
+             class="px-3 py-2 bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 hover:bg-indigo-600 hover:text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5">
+            <i class="fa-solid fa-code-fork text-xs"></i>
+            <span>Source Code</span>
+          </a>
+        </div>
+
       </div>
     </div>
 
   </main>
 
   <!-- ================= FOOTER ================= -->
-  <footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-6 text-center text-xs text-slate-500 dark:text-slate-400 mt-12">
-    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-      <div>
-        <p class="font-bold text-slate-700 dark:text-slate-200">
-          كتالوج متجر كمال محمد سعد &copy; 2026 - نظام إدارة المخزون والمبيعات
-        </p>
-        <p class="text-[11px] text-slate-400">
-          البيانات مستخرجة مباشرة من الموقع الرسمي <a href="https://www.kamalsaad.com" target="_blank" class="underline hover:text-indigo-500">kamalsaad.com</a>
-        </p>
-      </div>
+  <footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-4 text-center text-xs text-slate-500 dark:text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <p class="font-bold text-slate-700 dark:text-slate-300">
+        كتالوج كمال محمد سعد &copy; 2026 • برمجة وتطوير باسل ندا
+      </p>
       <div class="flex items-center gap-3">
-        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="px-3 py-1.5 bg-slate-100 dark:bg-slate-800 hover:bg-indigo-50 hover:text-indigo-600 dark:hover:bg-slate-700 rounded-lg font-semibold transition flex items-center gap-1">
-          <i class="fa-solid fa-arrow-up text-xs"></i>
-          <span>للأعلى</span>
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="px-2.5 py-1 bg-slate-100 dark:bg-slate-800 hover:bg-indigo-50 hover:text-indigo-600 dark:hover:bg-slate-700 rounded-lg font-bold transition text-[11px] flex items-center gap-1">
+          <i class="fa-solid fa-arrow-up text-[10px]"></i>
+          <span>أعلى الصفحة</span>
         </button>
       </div>
     </div>
   </footer>
 
   <!-- ================= QUICK VIEW MODAL ================= -->
-  <div id="quickModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-200">
-    <div class="bg-white dark:bg-slate-900 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-slate-200 dark:border-slate-800 transform scale-95 transition-transform duration-200" id="quickModalBox">
-      <div class="p-4 sm:p-6 relative">
+  <div id="quickModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-3 opacity-0 pointer-events-none transition-opacity duration-200">
+    <div class="bg-white dark:bg-slate-900 rounded-2xl max-w-lg w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-slate-200 dark:border-slate-800 transform scale-95 transition-transform duration-200" id="quickModalBox">
+      <div class="p-4 sm:p-5 relative">
         <!-- Close Button -->
-        <button onclick="closeQuickModal()" class="absolute left-4 top-4 w-9 h-9 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full flex items-center justify-center text-slate-600 dark:text-slate-300 transition">
-          <i class="fa-solid fa-xmark text-base"></i>
+        <button onclick="closeQuickModal()" class="absolute left-3 top-3 w-8 h-8 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-full flex items-center justify-center text-slate-600 dark:text-slate-300 transition">
+          <i class="fa-solid fa-xmark text-sm"></i>
         </button>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center pt-2">
+        <div class="flex flex-col gap-4 pt-1">
           <!-- Product Image Zoom -->
-          <div class="bg-slate-50 dark:bg-slate-800/50 rounded-xl p-4 flex items-center justify-center border border-slate-100 dark:border-slate-800">
-            <img id="modalImg" src="" alt="" class="max-h-64 sm:max-h-80 w-auto object-contain rounded-lg shadow-xs">
+          <div class="bg-slate-50 dark:bg-slate-800/50 rounded-xl p-3 flex items-center justify-center border border-slate-100 dark:border-slate-800">
+            <img id="modalImg" src="" alt="" class="max-h-56 sm:max-h-64 w-auto object-contain rounded-lg">
           </div>
 
           <!-- Product Details -->
-          <div class="flex flex-col gap-3">
+          <div class="flex flex-col gap-2.5">
             <div>
-              <span id="modalCategory" class="inline-block px-2.5 py-1 text-xs font-bold bg-indigo-50 text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-300 rounded-lg border border-indigo-200/50 dark:border-indigo-700/50 mb-2"></span>
-              <h2 id="modalTitle" class="text-base sm:text-lg font-black text-slate-900 dark:text-white leading-snug"></h2>
+              <span id="modalCategory" class="inline-block px-2 py-0.5 text-[10px] font-bold bg-indigo-50 text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-300 rounded-md mb-1.5"></span>
+              <h2 id="modalTitle" class="text-sm sm:text-base font-black text-slate-900 dark:text-white leading-snug"></h2>
             </div>
 
-            <!-- Price display -->
-            <div class="bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200/60 dark:border-emerald-800/60 p-3 rounded-xl">
-              <span class="text-xs text-emerald-700 dark:text-emerald-400 font-bold block">السعر الحالي:</span>
-              <span id="modalPrice" class="text-2xl font-black text-emerald-600 dark:text-emerald-400"></span>
+            <!-- Price -->
+            <div class="bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200/60 dark:border-emerald-800/60 p-2.5 rounded-xl">
+              <span class="text-[10px] text-emerald-700 dark:text-emerald-400 font-bold block">السعر:</span>
+              <span id="modalPrice" class="text-xl font-black text-emerald-600 dark:text-emerald-400"></span>
             </div>
 
-            <!-- Actions inside modal -->
-            <div class="flex flex-col gap-2 pt-2">
-              <a id="modalStoreLink" href="#" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl text-center text-sm shadow-md shadow-indigo-500/20 transition flex items-center justify-center gap-2">
+            <!-- Actions -->
+            <div class="flex flex-col gap-2 pt-1">
+              <a id="modalStoreLink" href="#" target="_blank" rel="noopener noreferrer" class="w-full py-2 px-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl text-center text-xs shadow-md shadow-indigo-500/20 transition flex items-center justify-center gap-1.5">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                <span>فتح صفحة المنتج على المتجر</span>
+                <span>فتح صفحة المنتج الأصلية</span>
               </a>
 
-              <button id="modalAddToCartBtn" class="w-full py-2.5 px-4 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold rounded-xl text-center text-sm transition flex items-center justify-center gap-2">
+              <button id="modalAddToCartBtn" class="w-full py-2 px-3 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold rounded-xl text-center text-xs transition flex items-center justify-center gap-1.5">
                 <i class="fa-solid fa-cart-plus text-amber-500"></i>
                 <span>إضافة إلى مسودة الطلب</span>
-              </button>
-
-              <button id="modalCopyLinkBtn" class="w-full py-2 px-4 text-xs text-slate-500 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 text-center transition">
-                <i class="fa-solid fa-copy ml-1"></i> نسخ رابط المنتج
               </button>
             </div>
 
@@ -389,46 +430,44 @@
   <!-- ================= CART / ORDER DRAFT DRAWER ================= -->
   <div id="cartDrawerBackdrop" class="fixed inset-0 z-50 bg-black/50 backdrop-blur-xs opacity-0 pointer-events-none transition-opacity duration-300"></div>
   
-  <div id="cartDrawer" class="fixed top-0 left-0 bottom-0 z-50 w-full sm:w-96 bg-white dark:bg-slate-900 shadow-2xl border-r border-slate-200 dark:border-slate-800 transform -translate-x-full transition-transform duration-300 flex flex-col">
+  <div id="cartDrawer" class="fixed top-0 left-0 bottom-0 z-50 w-full sm:w-88 bg-white dark:bg-slate-900 shadow-2xl border-r border-slate-200 dark:border-slate-800 transform -translate-x-full transition-transform duration-300 flex flex-col">
     
     <!-- Drawer Header -->
-    <div class="p-4 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between bg-slate-50 dark:bg-slate-800/50">
+    <div class="p-3.5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between bg-slate-50 dark:bg-slate-800/50">
       <div class="flex items-center gap-2">
-        <i class="fa-solid fa-clipboard-list text-indigo-600 text-lg"></i>
-        <h3 class="font-extrabold text-slate-900 dark:text-white">قائمة الطلب والمسودة</h3>
-        <span id="drawerCartCount" class="px-2 py-0.5 text-xs font-bold bg-indigo-600 text-white rounded-full">0</span>
+        <i class="fa-solid fa-clipboard-list text-indigo-600 text-base"></i>
+        <h3 class="font-extrabold text-sm text-slate-900 dark:text-white">مسودة الطلب</h3>
+        <span id="drawerCartCount" class="px-2 py-0.5 text-[10px] font-bold bg-indigo-600 text-white rounded-full">0</span>
       </div>
-      <button id="btnCloseCart" class="w-8 h-8 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700 flex items-center justify-center text-slate-500">
-        <i class="fa-solid fa-xmark"></i>
+      <button id="btnCloseCart" class="w-7 h-7 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700 flex items-center justify-center text-slate-500">
+        <i class="fa-solid fa-xmark text-sm"></i>
       </button>
     </div>
 
     <!-- Drawer Items List -->
-    <div id="cartItemsList" class="flex-grow p-4 overflow-y-auto flex flex-col gap-3">
-      <!-- Injected dynamically -->
-    </div>
+    <div id="cartItemsList" class="flex-grow p-3 overflow-y-auto flex flex-col gap-2"></div>
 
     <!-- Drawer Empty Message -->
     <div id="cartEmptyState" class="flex-grow flex flex-col items-center justify-center p-6 text-center">
-      <i class="fa-solid fa-cart-arrow-down text-4xl text-slate-300 dark:text-slate-600 mb-3"></i>
-      <p class="text-sm font-bold text-slate-700 dark:text-slate-300">القائمة فارغة حالياً</p>
-      <p class="text-xs text-slate-400 mt-1">اضغط على زر السلة في أي بطاقة لإضافتها للطلب</p>
+      <i class="fa-solid fa-cart-arrow-down text-3xl text-slate-300 dark:text-slate-600 mb-2"></i>
+      <p class="text-xs font-bold text-slate-700 dark:text-slate-300">المسودة فارغة حالياً</p>
+      <p class="text-[10px] text-slate-400 mt-0.5">اضغط على زر السلة في أي منتج لإضافته</p>
     </div>
 
-    <!-- Drawer Footer / Total Summary -->
-    <div class="p-4 border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50 flex flex-col gap-3">
-      <div class="flex items-center justify-between font-bold">
-        <span class="text-sm text-slate-600 dark:text-slate-300">إجمالي الأصناف المقدرة:</span>
-        <span id="cartTotalPrice" class="text-lg text-emerald-600 dark:text-emerald-400">0.00 ج.م</span>
+    <!-- Drawer Footer -->
+    <div class="p-3 border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/50 flex flex-col gap-2">
+      <div class="flex items-center justify-between font-bold text-xs">
+        <span class="text-slate-500 dark:text-slate-400">الإجمالي التقديري:</span>
+        <span id="cartTotalPrice" class="text-base text-emerald-600 dark:text-emerald-400">0.00 ج.م</span>
       </div>
 
-      <div class="grid grid-cols-2 gap-2">
-        <button id="btnExportCartCSV" class="py-2 px-3 text-xs font-bold bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl transition flex items-center justify-center gap-1">
-          <i class="fa-solid fa-file-excel"></i>
-          <span>تصدير الطلب</span>
+      <div class="grid grid-cols-2 gap-2 pt-1">
+        <button id="btnExportCartCSV" class="py-2 px-2 text-xs font-bold bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl transition flex items-center justify-center gap-1">
+          <i class="fa-solid fa-file-excel text-xs"></i>
+          <span>تصدير Excel</span>
         </button>
-        <button id="btnClearCart" class="py-2 px-3 text-xs font-bold bg-rose-50 text-rose-600 dark:bg-rose-950/50 dark:text-rose-300 border border-rose-200 dark:border-rose-800 hover:bg-rose-100 rounded-xl transition">
-          مسح القائمة
+        <button id="btnClearCart" class="py-2 px-2 text-xs font-bold bg-rose-50 text-rose-600 dark:bg-rose-950/50 dark:text-rose-300 border border-rose-200 dark:border-rose-800 rounded-xl transition">
+          مسح الكل
         </button>
       </div>
     </div>
@@ -436,19 +475,18 @@
   </div>
 
   <!-- ================= TOAST NOTIFICATION ================= -->
-  <div id="toast" class="fixed bottom-6 left-6 z-50 bg-slate-900 text-white px-4 py-3 rounded-xl shadow-lg flex items-center gap-2 text-sm font-medium transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none">
+  <div id="toast" class="fixed bottom-4 left-4 z-50 bg-slate-900/95 text-white px-3.5 py-2.5 rounded-xl shadow-xl flex items-center gap-2 text-xs font-semibold transform translate-y-16 opacity-0 transition-all duration-200 pointer-events-none backdrop-blur-xs border border-slate-700">
     <i id="toastIcon" class="fa-solid fa-circle-check text-emerald-400"></i>
-    <span id="toastMsg">تم الإجراء بنجاح</span>
+    <span id="toastMsg">تم بنجاح</span>
   </div>
 
-  <!-- ================= JAVASCRIPT APPLICATION LOGIC ================= -->
+  <!-- ================= JAVASCRIPT LOGIC ================= -->
   <script>
-    // --- Application State ---
     let allProducts = [];
     let filteredProducts = [];
     let currentPage = 1;
     let pageSize = 48;
-    let currentView = 'grid'; // 'grid' or 'list'
+    let currentView = 'grid';
     let selectedCategory = '';
     let searchQuery = '';
     let currentSort = 'default';
@@ -456,7 +494,6 @@
     let maxPrice = null;
     let cart = JSON.parse(localStorage.getItem('kms_cart') || '[]');
 
-    // --- Popular Categories for quick chips ---
     const POPULAR_CATEGORIES = [
       'الكل',
       'فنون جميلة',
@@ -471,9 +508,11 @@
       'جلوستيك و صمغ'
     ];
 
-    // --- DOM Elements ---
+    // DOM Elements
     const searchInput = document.getElementById('searchInput');
     const clearSearchBtn = document.getElementById('clearSearchBtn');
+    const toggleFiltersBtn = document.getElementById('toggleFiltersBtn');
+    const advancedFiltersBox = document.getElementById('advancedFiltersBox');
     const categorySelect = document.getElementById('categorySelect');
     const sortSelect = document.getElementById('sortSelect');
     const minPriceInput = document.getElementById('minPriceInput');
@@ -509,7 +548,7 @@
     const btnClearCart = document.getElementById('btnClearCart');
     const btnExportCartCSV = document.getElementById('btnExportCartCSV');
 
-    // Quick Modal Elements
+    // Modal Elements
     const quickModal = document.getElementById('quickModal');
     const quickModalBox = document.getElementById('quickModalBox');
     const modalImg = document.getElementById('modalImg');
@@ -518,21 +557,17 @@
     const modalPrice = document.getElementById('modalPrice');
     const modalStoreLink = document.getElementById('modalStoreLink');
     const modalAddToCartBtn = document.getElementById('modalAddToCartBtn');
-    const modalCopyLinkBtn = document.getElementById('modalCopyLinkBtn');
     let currentModalProduct = null;
 
-    // --- Init Function ---
     async function init() {
-      // Setup Theme
       if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.documentElement.classList.add('dark');
-        themeIcon.className = 'fa-solid fa-sun text-amber-400 text-base sm:text-lg';
+        themeIcon.className = 'fa-solid fa-sun text-amber-400 text-sm sm:text-lg';
       } else {
         document.documentElement.classList.remove('dark');
-        themeIcon.className = 'fa-solid fa-moon text-base sm:text-lg';
+        themeIcon.className = 'fa-solid fa-moon text-sm sm:text-lg';
       }
 
-      // Load Dataset
       if (window.PRODUCTS_DATA && Array.isArray(window.PRODUCTS_DATA)) {
         allProducts = window.PRODUCTS_DATA;
       } else {
@@ -540,27 +575,19 @@
           const res = await fetch('products.json');
           allProducts = await res.json();
         } catch (e) {
-          console.error("Could not load products.json:", e);
+          console.error("Could not load products:", e);
         }
       }
 
       headerTotalCount.textContent = allProducts.length.toLocaleString('ar-EG');
-      
-      // Populate Categories Dropdown & Chips
       populateCategories();
       renderPopularChips();
-      
-      // Initial Filter & Render
       applyFilters();
       updateCartUI();
-
-      // Bind Event Listeners
       setupEvents();
     }
 
-    // --- Event Listeners Setup ---
     function setupEvents() {
-      // Search with debounce
       let debounceTimer;
       searchInput.addEventListener('input', (e) => {
         clearTimeout(debounceTimer);
@@ -569,7 +596,7 @@
         debounceTimer = setTimeout(() => {
           currentPage = 1;
           applyFilters();
-        }, 200);
+        }, 180);
       });
 
       clearSearchBtn.addEventListener('click', () => {
@@ -580,7 +607,10 @@
         applyFilters();
       });
 
-      // Category select
+      toggleFiltersBtn.addEventListener('click', () => {
+        advancedFiltersBox.classList.toggle('hidden');
+      });
+
       categorySelect.addEventListener('change', (e) => {
         selectedCategory = e.target.value;
         currentPage = 1;
@@ -588,13 +618,11 @@
         applyFilters();
       });
 
-      // Sort
       sortSelect.addEventListener('change', (e) => {
         currentSort = e.target.value;
         applyFilters();
       });
 
-      // Price Filters
       minPriceInput.addEventListener('input', (e) => {
         minPrice = e.target.value ? parseFloat(e.target.value) : null;
         currentPage = 1;
@@ -609,7 +637,6 @@
 
       resetFiltersBtn.addEventListener('click', resetAllFilters);
 
-      // Page size
       pageSizeSelect.addEventListener('change', (e) => {
         pageSize = e.target.value === 'all' ? allProducts.length : parseInt(e.target.value);
         currentPage = 1;
@@ -617,22 +644,17 @@
         renderPagination();
       });
 
-      // View toggle
       viewGridBtn.addEventListener('click', () => setView('grid'));
       viewListBtn.addEventListener('click', () => setView('list'));
-
-      // Theme toggle
       themeToggle.addEventListener('click', toggleTheme);
 
-      // Cart Drawer
       btnOpenCart.addEventListener('click', openCartDrawer);
       btnCloseCart.addEventListener('click', closeCartDrawer);
       cartDrawerBackdrop.addEventListener('click', closeCartDrawer);
       btnClearCart.addEventListener('click', clearCart);
       btnExportCartCSV.addEventListener('click', exportCartToCSV);
-      btnExportCSV.addEventListener('click', () => exportDataToCSV(filteredProducts, 'kamalsaad_filtered_products.csv'));
+      btnExportCSV.addEventListener('click', () => exportDataToCSV(filteredProducts, 'kamalsaad_catalog.csv'));
 
-      // Modal
       quickModal.addEventListener('click', (e) => {
         if (e.target === quickModal) closeQuickModal();
       });
@@ -642,14 +664,7 @@
           closeQuickModal();
         }
       });
-      modalCopyLinkBtn.addEventListener('click', () => {
-        if (currentModalProduct && currentModalProduct.url) {
-          navigator.clipboard.writeText(currentModalProduct.url);
-          showToast('تم نسخ رابط المنتج إلى الحافظة!');
-        }
-      });
 
-      // ESC key to close modals
       document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
           closeQuickModal();
@@ -658,7 +673,6 @@
       });
     }
 
-    // --- Category Management ---
     function populateCategories() {
       const categoryCounts = {};
       allProducts.forEach(p => {
@@ -667,7 +681,6 @@
       });
 
       const sortedCats = Object.keys(categoryCounts).sort((a, b) => a.localeCompare(b, 'ar'));
-
       categorySelect.innerHTML = `<option value="">📂 كل الأقسام والتصنيفات (${allProducts.length})</option>`;
       sortedCats.forEach(cat => {
         const opt = document.createElement('option');
@@ -678,12 +691,11 @@
     }
 
     function renderPopularChips() {
-      popularChipsContainer.querySelectorAll('.cat-chip').forEach(el => el.remove());
-      
+      popularChipsContainer.innerHTML = '';
       POPULAR_CATEGORIES.forEach(catName => {
         const isAll = catName === 'الكل';
         const chip = document.createElement('button');
-        chip.className = `cat-chip px-3 py-1 text-xs rounded-full font-bold transition whitespace-nowrap border ${
+        chip.className = `cat-chip px-2.5 py-1 text-[11px] rounded-full font-bold transition whitespace-nowrap border shrink-0 ${
           (isAll && !selectedCategory) || selectedCategory === catName
             ? 'bg-indigo-600 text-white border-indigo-600 shadow-xs'
             : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-indigo-50 dark:hover:bg-slate-700'
@@ -705,38 +717,28 @@
         const catName = chip.textContent;
         const isActive = (!selectedCategory && catName === 'الكل') || selectedCategory === catName;
         if (isActive) {
-          chip.className = 'cat-chip px-3 py-1 text-xs rounded-full font-bold transition whitespace-nowrap border bg-indigo-600 text-white border-indigo-600 shadow-xs';
+          chip.className = 'cat-chip px-2.5 py-1 text-[11px] rounded-full font-bold transition whitespace-nowrap border shrink-0 bg-indigo-600 text-white border-indigo-600 shadow-xs';
         } else {
-          chip.className = 'cat-chip px-3 py-1 text-xs rounded-full font-bold transition whitespace-nowrap border bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-indigo-50 dark:hover:bg-slate-700';
+          chip.className = 'cat-chip px-2.5 py-1 text-[11px] rounded-full font-bold transition whitespace-nowrap border shrink-0 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-indigo-50 dark:hover:bg-slate-700';
         }
       });
     }
 
-    // --- Filtering & Sorting ---
     function applyFilters() {
       const q = searchQuery.toLowerCase();
       
       filteredProducts = allProducts.filter(item => {
-        // Category match
-        if (selectedCategory && item.category !== selectedCategory) {
-          return false;
-        }
-
-        // Price min/max match
+        if (selectedCategory && item.category !== selectedCategory) return false;
         if (minPrice !== null && item.price < minPrice) return false;
         if (maxPrice !== null && item.price > maxPrice) return false;
-
-        // Search text match
         if (q) {
           const title = (item.title || '').toLowerCase();
           const cat = (item.category || '').toLowerCase();
           return title.includes(q) || cat.includes(q);
         }
-
         return true;
       });
 
-      // Sorting
       if (currentSort === 'price_asc') {
         filteredProducts.sort((a, b) => a.price - b.price);
       } else if (currentSort === 'price_desc') {
@@ -747,13 +749,8 @@
         filteredProducts.sort((a, b) => b.title.localeCompare(a.title, 'ar'));
       }
 
-      // Update UI Stats
       resultsCountBadge.textContent = filteredProducts.length.toLocaleString('ar-EG');
-      if (selectedCategory) {
-        activeFilterBadge.textContent = `(قسم: ${selectedCategory})`;
-      } else {
-        activeFilterBadge.textContent = '';
-      }
+      activeFilterBadge.textContent = selectedCategory ? `(${selectedCategory})` : '';
 
       renderProducts();
       renderPagination();
@@ -774,27 +771,25 @@
       currentPage = 1;
       updateActiveChip();
       applyFilters();
-      showToast('تمت إعادة ضبط جميع الفلاتر');
+      showToast('تمت إعادة ضبط الفلاتر');
     }
 
-    // --- View Switching ---
     function setView(view) {
       currentView = view;
       if (view === 'grid') {
-        viewGridBtn.className = 'p-1.5 px-2.5 rounded-lg bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-xs font-bold text-xs flex items-center gap-1 transition';
-        viewListBtn.className = 'p-1.5 px-2.5 rounded-lg text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 font-bold text-xs flex items-center gap-1 transition';
+        viewGridBtn.className = 'p-1 px-2 rounded-md bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-xs font-bold text-[11px] flex items-center gap-1 transition';
+        viewListBtn.className = 'p-1 px-2 rounded-md text-slate-500 dark:text-slate-400 font-bold text-[11px] flex items-center gap-1 transition';
         productsGrid.classList.remove('hidden');
         productsList.classList.add('hidden');
       } else {
-        viewListBtn.className = 'p-1.5 px-2.5 rounded-lg bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-xs font-bold text-xs flex items-center gap-1 transition';
-        viewGridBtn.className = 'p-1.5 px-2.5 rounded-lg text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 font-bold text-xs flex items-center gap-1 transition';
+        viewListBtn.className = 'p-1 px-2 rounded-md bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-xs font-bold text-[11px] flex items-center gap-1 transition';
+        viewGridBtn.className = 'p-1 px-2 rounded-md text-slate-500 dark:text-slate-400 font-bold text-[11px] flex items-center gap-1 transition';
         productsGrid.classList.add('hidden');
         productsList.classList.remove('hidden');
       }
       renderProducts();
     }
 
-    // --- Render Products ---
     function renderProducts() {
       if (filteredProducts.length === 0) {
         productsGrid.innerHTML = '';
@@ -817,64 +812,56 @@
       }
     }
 
+    // Modern 2-Column Responsive Card
     function renderGridView(items) {
       productsGrid.innerHTML = items.map(p => `
-        <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/80 dark:border-slate-800 overflow-hidden flex flex-col card-hover-effect group relative">
+        <div class="bg-white dark:bg-slate-900 rounded-xl sm:rounded-2xl border border-slate-200/80 dark:border-slate-800 overflow-hidden flex flex-col card-hover-effect group relative shadow-xs">
           
-          <!-- Image Container -->
-          <div class="relative bg-slate-50 dark:bg-slate-800/40 p-4 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openQuickModal(${p.id})">
+          <!-- Image Box -->
+          <div class="relative bg-slate-50/80 dark:bg-slate-800/40 p-2.5 sm:p-3 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openQuickModal(${p.id})">
             <img src="${p.image || 'https://placehold.co/300x300?text=KMS'}" 
                  alt="${escapeHtml(p.title)}" 
                  loading="lazy"
                  onerror="this.onerror=null; this.src='https://placehold.co/300x300?text=كمال+سعد';"
-                 class="aspect-card-img w-full h-44 sm:h-52 object-contain group-hover:scale-105 transition-transform duration-300">
+                 class="w-full h-32 sm:h-44 object-contain group-hover:scale-105 transition-transform duration-300">
             
-            <!-- Quick View Overlay on hover -->
-            <div class="absolute inset-0 bg-indigo-900/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-              <span class="px-3 py-1.5 bg-white/90 dark:bg-slate-900/90 text-slate-800 dark:text-white rounded-xl text-xs font-bold shadow-md flex items-center gap-1 backdrop-blur-xs">
-                <i class="fa-solid fa-eye text-indigo-500"></i> معاينة سريعة
-              </span>
-            </div>
-
             <!-- Category Badge -->
-            <span class="absolute top-3 right-3 px-2.5 py-1 text-[11px] font-bold bg-white/90 dark:bg-slate-900/90 text-indigo-600 dark:text-indigo-400 rounded-lg shadow-xs border border-slate-100 dark:border-slate-700/80 backdrop-blur-xs">
+            <span class="absolute top-2 right-2 px-1.5 py-0.5 text-[9px] sm:text-[10px] font-bold bg-white/95 dark:bg-slate-900/95 text-indigo-600 dark:text-indigo-400 rounded-md shadow-xs border border-slate-100 dark:border-slate-700/80 backdrop-blur-xs truncate max-w-[85%]">
               ${escapeHtml(p.category || 'عام')}
             </span>
           </div>
 
-          <!-- Card Body -->
-          <div class="p-4 flex flex-col flex-grow justify-between gap-3">
-            
+          <!-- Card Content -->
+          <div class="p-2.5 sm:p-3.5 flex flex-col flex-grow justify-between gap-2">
             <div>
-              <h3 class="font-bold text-sm sm:text-base text-slate-900 dark:text-white line-clamp-2 hover:text-indigo-600 dark:hover:text-indigo-400 transition cursor-pointer" 
+              <h3 class="font-bold text-xs sm:text-sm text-slate-900 dark:text-white line-clamp-2 hover:text-indigo-600 dark:hover:text-indigo-400 transition cursor-pointer leading-tight sm:leading-snug" 
                   title="${escapeHtml(p.title)}" 
                   onclick="openQuickModal(${p.id})">
                 ${escapeHtml(p.title)}
               </h3>
             </div>
 
-            <!-- Price & Actions -->
-            <div class="pt-2 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between gap-2">
+            <!-- Price & Action Buttons -->
+            <div class="pt-1.5 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between gap-1">
               <div>
-                <span class="text-[11px] text-slate-400 block">السعر:</span>
-                <span class="text-base sm:text-lg font-black text-emerald-600 dark:text-emerald-400">
+                <span class="text-xs sm:text-sm font-black text-emerald-600 dark:text-emerald-400 block">
                   ${p.price_formatted}
                 </span>
               </div>
 
-              <div class="flex items-center gap-1.5">
+              <div class="flex items-center gap-1 shrink-0">
                 <!-- Add to draft cart button -->
                 <button onclick="addToCartById(${p.id})" 
-                        class="w-8 h-8 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 hover:bg-indigo-600 hover:text-white transition flex items-center justify-center" 
-                        title="إضافة لمسودة الطلب">
-                  <i class="fa-solid fa-cart-plus text-xs"></i>
+                        class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 hover:bg-indigo-600 hover:text-white transition flex items-center justify-center" 
+                        title="إضافة للطلب">
+                  <i class="fa-solid fa-cart-plus text-[11px] sm:text-xs"></i>
                 </button>
 
                 <!-- Direct Store Link -->
                 <a href="${p.url}" target="_blank" rel="noopener noreferrer" 
-                   class="w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition flex items-center justify-center" 
-                   title="فتح المنتج على متجر كمال سعد الأصلي">
-                  <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                   class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition flex items-center justify-center" 
+                   title="عرض في متجر كمال سعد">
+                  <i class="fa-solid fa-arrow-up-right-from-square text-[10px] sm:text-xs"></i>
                 </a>
               </div>
             </div>
@@ -887,19 +874,18 @@
 
     function renderListView(items) {
       productsList.innerHTML = items.map(p => `
-        <div class="bg-white dark:bg-slate-900 rounded-xl border border-slate-200/80 dark:border-slate-800 p-3 sm:p-4 flex items-center justify-between gap-4 card-hover-effect">
+        <div class="bg-white dark:bg-slate-900 rounded-xl border border-slate-200/80 dark:border-slate-800 p-2.5 sm:p-3 flex items-center justify-between gap-3 card-hover-effect shadow-xs">
           
-          <div class="flex items-center gap-3 sm:gap-4 flex-grow min-w-0">
-            <!-- Thumbnail -->
+          <div class="flex items-center gap-2.5 sm:gap-3 flex-grow min-w-0">
             <img src="${p.image || 'https://placehold.co/100x100?text=KMS'}" 
                  alt="${escapeHtml(p.title)}" 
                  loading="lazy"
                  onerror="this.onerror=null; this.src='https://placehold.co/100x100?text=KMS';"
-                 class="w-14 h-14 sm:w-16 sm:h-16 object-contain rounded-lg bg-slate-50 dark:bg-slate-800 p-1 border border-slate-100 dark:border-slate-800 shrink-0 cursor-pointer"
+                 class="w-12 h-12 sm:w-14 sm:h-14 object-contain rounded-lg bg-slate-50 dark:bg-slate-800 p-1 border border-slate-100 dark:border-slate-800 shrink-0 cursor-pointer"
                  onclick="openQuickModal(${p.id})">
 
             <div class="min-w-0 flex-grow">
-              <span class="inline-block px-2 py-0.5 text-[10px] font-bold bg-indigo-50 text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-300 rounded mb-1">
+              <span class="inline-block px-1.5 py-0.5 text-[9px] font-bold bg-indigo-50 text-indigo-700 dark:bg-indigo-900/50 dark:text-indigo-300 rounded mb-0.5">
                 ${escapeHtml(p.category || 'عام')}
               </span>
               <h3 class="font-bold text-xs sm:text-sm text-slate-900 dark:text-white truncate cursor-pointer hover:text-indigo-600 transition" 
@@ -910,22 +896,19 @@
             </div>
           </div>
 
-          <!-- Price -->
-          <div class="text-left shrink-0 min-w-[100px]">
-            <span class="text-sm sm:text-base font-black text-emerald-600 dark:text-emerald-400 block">
+          <div class="text-left shrink-0">
+            <span class="text-xs sm:text-sm font-black text-emerald-600 dark:text-emerald-400 block">
               ${p.price_formatted}
             </span>
           </div>
 
-          <!-- Action Buttons -->
-          <div class="flex items-center gap-1.5 shrink-0">
+          <div class="flex items-center gap-1 shrink-0">
             <button onclick="addToCartById(${p.id})" 
-                    class="px-2.5 py-1.5 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 hover:bg-indigo-600 hover:text-white transition text-xs font-bold flex items-center gap-1">
+                    class="p-1.5 px-2 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 hover:bg-indigo-600 hover:text-white transition text-xs font-bold flex items-center gap-1">
               <i class="fa-solid fa-cart-plus"></i>
-              <span class="hidden sm:inline">طلب</span>
             </button>
             <a href="${p.url}" target="_blank" rel="noopener noreferrer" 
-               class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition text-xs" title="فتح في المتجر">
+               class="p-1.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition text-xs">
               <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
@@ -934,7 +917,6 @@
       `).join('');
     }
 
-    // --- Pagination ---
     function renderPagination() {
       const totalPages = Math.ceil(filteredProducts.length / pageSize);
       if (totalPages <= 1) {
@@ -945,26 +927,23 @@
 
       const start = (currentPage - 1) * pageSize + 1;
       const end = Math.min(currentPage * pageSize, filteredProducts.length);
-      paginationInfo.textContent = `عرض ${start} إلى ${end} من إجمالي ${filteredProducts.length.toLocaleString('ar-EG')} صنف`;
+      paginationInfo.textContent = `عرض ${start} - ${end} من ${filteredProducts.length.toLocaleString('ar-EG')}`;
 
       let btnsHtml = '';
-
-      // Prev Button
       btnsHtml += `
-        <button onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled class="opacity-40 cursor-not-allowed"' : ''} class="px-3 py-1.5 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 transition">
-          <i class="fa-solid fa-chevron-right ml-1"></i> السابق
+        <button onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled class="opacity-40 cursor-not-allowed"' : ''} class="px-2.5 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold hover:bg-slate-100 transition">
+          السابق
         </button>
       `;
 
-      // Page numbers (smart window)
       let pages = [];
-      if (totalPages <= 7) {
+      if (totalPages <= 5) {
         for (let i = 1; i <= totalPages; i++) pages.push(i);
       } else {
-        if (currentPage <= 4) {
-          pages = [1, 2, 3, 4, 5, '...', totalPages];
-        } else if (currentPage >= totalPages - 3) {
-          pages = [1, '...', totalPages - 4, totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+        if (currentPage <= 3) {
+          pages = [1, 2, 3, 4, '...', totalPages];
+        } else if (currentPage >= totalPages - 2) {
+          pages = [1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
         } else {
           pages = [1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages];
         }
@@ -972,13 +951,13 @@
 
       pages.forEach(p => {
         if (p === '...') {
-          btnsHtml += `<span class="px-2 text-slate-400 text-xs">...</span>`;
+          btnsHtml += `<span class="px-1 text-slate-400 text-xs">...</span>`;
         } else {
           btnsHtml += `
-            <button onclick="goToPage(${p})" class="w-8 h-8 rounded-lg text-xs font-bold transition ${
+            <button onclick="goToPage(${p})" class="w-7 h-7 rounded-lg text-xs font-bold transition ${
               p === currentPage 
                 ? 'bg-indigo-600 text-white shadow-xs' 
-                : 'bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700'
+                : 'bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-100'
             }">
               ${p}
             </button>
@@ -986,10 +965,9 @@
         }
       });
 
-      // Next Button
       btnsHtml += `
-        <button onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled class="opacity-40 cursor-not-allowed"' : ''} class="px-3 py-1.5 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold text-slate-700 dark:text-slate-200 hover:bg-slate-100 transition">
-          التالي <i class="fa-solid fa-chevron-left mr-1"></i>
+        <button onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled class="opacity-40 cursor-not-allowed"' : ''} class="px-2.5 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold hover:bg-slate-100 transition">
+          التالي
         </button>
       `;
 
@@ -1002,10 +980,9 @@
       currentPage = page;
       renderProducts();
       renderPagination();
-      window.scrollTo({ top: 120, behavior: 'smooth' });
+      window.scrollTo({ top: 80, behavior: 'smooth' });
     }
 
-    // --- Quick View Modal ---
     function openQuickModal(id) {
       const product = allProducts.find(p => p.id === id);
       if (!product) return;
@@ -1029,7 +1006,6 @@
       currentModalProduct = null;
     }
 
-    // --- Cart / Order Draft Management ---
     function addToCartById(id) {
       const product = allProducts.find(p => p.id === id);
       if (product) addToCart(product);
@@ -1043,7 +1019,7 @@
         cart.push({ ...product, qty: 1 });
       }
       saveCart();
-      showToast(`تمت إضافة "${product.title.substring(0, 25)}..." لمسودة الطلب`);
+      showToast(`تمت إضافة "${product.title.substring(0, 20)}..." للطلب`);
     }
 
     function updateCartItemQty(id, delta) {
@@ -1059,12 +1035,12 @@
     function removeCartItem(id) {
       cart = cart.filter(i => i.id !== id);
       saveCart();
-      showToast('تم حذف الصنف من المسودة');
+      showToast('تم الحذف من المسودة');
     }
 
     function clearCart() {
       if (cart.length === 0) return;
-      if (confirm('هل أنت متأكد من مسح كافة الأصناف المحددة في المسودة؟')) {
+      if (confirm('مسح كافة محتويات مسودة الطلب؟')) {
         cart = [];
         saveCart();
         showToast('تم مسح المسودة');
@@ -1080,7 +1056,6 @@
       const totalCount = cart.reduce((sum, i) => sum + i.qty, 0);
       const totalAmount = cart.reduce((sum, i) => sum + (i.price * i.qty), 0);
 
-      // Header Badge
       cartCountBadge.textContent = totalCount;
       cartCountBadge.classList.toggle('hidden', totalCount === 0);
       drawerCartCount.textContent = totalCount;
@@ -1092,20 +1067,19 @@
       } else {
         cartEmptyState.classList.add('hidden');
         cartItemsList.innerHTML = cart.map(item => `
-          <div class="bg-slate-50 dark:bg-slate-800 p-3 rounded-xl border border-slate-200/80 dark:border-slate-700 flex items-center justify-between gap-3">
-            <img src="${item.image || 'https://placehold.co/80x80'}" class="w-12 h-12 object-contain rounded bg-white dark:bg-slate-900 p-1 shrink-0">
+          <div class="bg-slate-50 dark:bg-slate-800 p-2.5 rounded-xl border border-slate-200/80 dark:border-slate-700 flex items-center justify-between gap-2 text-xs">
+            <img src="${item.image || 'https://placehold.co/80x80'}" class="w-10 h-10 object-contain rounded bg-white dark:bg-slate-900 p-1 shrink-0">
             
             <div class="min-w-0 flex-grow">
-              <h4 class="text-xs font-bold text-slate-800 dark:text-slate-100 truncate">${escapeHtml(item.title)}</h4>
-              <span class="text-xs text-emerald-600 dark:text-emerald-400 font-extrabold">${item.price_formatted}</span>
+              <h4 class="font-bold text-slate-800 dark:text-slate-100 truncate">${escapeHtml(item.title)}</h4>
+              <span class="text-emerald-600 dark:text-emerald-400 font-black">${item.price_formatted}</span>
             </div>
 
-            <!-- Qty Controls -->
             <div class="flex items-center gap-1 shrink-0">
-              <button onclick="updateCartItemQty(${item.id}, -1)" class="w-6 h-6 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 flex items-center justify-center text-xs font-bold">-</button>
-              <span class="w-6 text-center text-xs font-bold">${item.qty}</span>
-              <button onclick="updateCartItemQty(${item.id}, 1)" class="w-6 h-6 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 flex items-center justify-center text-xs font-bold">+</button>
-              <button onclick="removeCartItem(${item.id})" class="text-rose-500 hover:text-rose-700 ml-1 p-1 text-xs" title="حذف">
+              <button onclick="updateCartItemQty(${item.id}, -1)" class="w-5 h-5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 flex items-center justify-center font-bold">-</button>
+              <span class="w-5 text-center font-bold">${item.qty}</span>
+              <button onclick="updateCartItemQty(${item.id}, 1)" class="w-5 h-5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 flex items-center justify-center font-bold">+</button>
+              <button onclick="removeCartItem(${item.id})" class="text-rose-500 hover:text-rose-700 ml-1 p-0.5 text-xs">
                 <i class="fa-solid fa-trash-can"></i>
               </button>
             </div>
@@ -1124,10 +1098,9 @@
       cartDrawer.classList.add('-translate-x-full');
     }
 
-    // --- Exporting to CSV ---
     function exportCartToCSV() {
       if (cart.length === 0) {
-        showToast('قائمة المسودة فارغة، لا يوجد ما يتم تصديره');
+        showToast('المسودة فارغة');
         return;
       }
       exportDataToCSV(cart, 'kms_order_draft.csv');
@@ -1156,19 +1129,18 @@
       link.href = URL.createObjectURL(blob);
       link.download = filename;
       link.click();
-      showToast(`تم تحميل الملف: ${filename}`);
+      showToast(`تم تصدير الملف بنجاح`);
     }
 
-    // --- Theme & Utility ---
     function toggleTheme() {
       if (document.documentElement.classList.contains('dark')) {
         document.documentElement.classList.remove('dark');
         localStorage.theme = 'light';
-        themeIcon.className = 'fa-solid fa-moon text-base sm:text-lg';
+        themeIcon.className = 'fa-solid fa-moon text-sm sm:text-lg';
       } else {
         document.documentElement.classList.add('dark');
         localStorage.theme = 'dark';
-        themeIcon.className = 'fa-solid fa-sun text-amber-400 text-base sm:text-lg';
+        themeIcon.className = 'fa-solid fa-sun text-amber-400 text-sm sm:text-lg';
       }
     }
 
@@ -1176,10 +1148,10 @@
       const toast = document.getElementById('toast');
       const toastMsg = document.getElementById('toastMsg');
       toastMsg.textContent = message;
-      toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
+      toast.classList.remove('translate-y-16', 'opacity-0', 'pointer-events-none');
       setTimeout(() => {
-        toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
-      }, 3000);
+        toast.classList.add('translate-y-16', 'opacity-0', 'pointer-events-none');
+      }, 2500);
     }
 
     function escapeHtml(str) {
@@ -1192,7 +1164,6 @@
         .replace(/'/g, '&#039;');
     }
 
-    // Start App
     window.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
