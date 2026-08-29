@@ -168,9 +168,11 @@ def main():
         print("[-] No products extracted.")
         return
 
+    # Root directory (one level up from scripts/)
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(script_dir, "products.json")
-    js_path = os.path.join(script_dir, "products.js")
+    root_dir = os.path.dirname(script_dir) if os.path.basename(script_dir) == "scripts" else script_dir
+    json_path = os.path.join(root_dir, "products.json")
+    js_path = os.path.join(root_dir, "products.js")
 
     # Save products.json
     with open(json_path, "w", encoding="utf-8") as f:

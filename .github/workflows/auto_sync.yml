@@ -22,14 +22,15 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
+          cache-dependency-path: 'scripts/requirements.txt'
 
       - name: Install Dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r scripts/requirements.txt
 
       - name: Run Scraper
         run: |
-          python scraper.py
+          python scripts/scraper.py
 
       - name: Commit and Push Changes
         run: |
