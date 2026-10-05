@@ -2190,8 +2190,8 @@
     "id": 244,
     "title": "قلم جيل ام&جى اكسبرت جيل 1.0 مم رقم.AGP13672 - اسود",
     "category": "اقلام جيل",
-    "price": 17.0,
-    "price_formatted": "17.00 ج.م",
+    "price": 19.0,
+    "price_formatted": "19.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17231349572419.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D9%82%D9%84%D9%85-%D8%AC%D9%8A%D9%84-%D8%A7%D9%85-%D8%AC%D9%89-%D8%A7%D9%83%D8%B3%D8%A8%D8%B1%D8%AA-%D8%AC%D9%8A%D9%84-1-0-%D9%85%D9%85-%D8%B1%D9%82%D9%85-AGP13672---%D8%A7%D8%B3%D9%88%D8%AF"
   },
@@ -2521,6 +2521,15 @@
   },
   {
     "id": 281,
+    "title": "لاصق سلوتيب شفاف كريستال - 12 قطعة",
+    "category": "اسكوتش، سلوتيب و لاصق اوراق",
+    "price": 35.0,
+    "price_formatted": "35.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17684957745930.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D9%84%D8%A7%D8%B5%D9%82-%D8%B3%D9%84%D9%88%D8%AA%D9%8A%D8%A8-%D8%B4%D9%81%D8%A7%D9%81-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D8%A7%D9%84---12-%D9%82%D8%B7%D8%B9%D8%A9"
+  },
+  {
+    "id": 282,
     "title": "بكر اسكوتش Evergreen عالى الجودة 750متر",
     "category": "اسكوتش، سلوتيب و لاصق اوراق",
     "price": 126.0,
@@ -2529,22 +2538,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%A8%D9%83%D8%B1-%D8%A7%D8%B3%D9%83%D9%88%D8%AA%D8%B4-Evergreen-%D8%B9%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-750%D9%85%D8%AA%D8%B1"
   },
   {
-    "id": 282,
+    "id": 283,
     "title": "لاصق دبل فيس عالى الجودة 2سم*3م",
     "category": "اسكوتش، سلوتيب و لاصق اوراق",
     "price": 21.5,
     "price_formatted": "21.50 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17404918203912.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D9%84%D8%A7%D8%B5%D9%82-%D8%AF%D8%A8%D9%84-%D9%81%D9%8A%D8%B3-%D8%B9%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-2%D8%B3%D9%85*3%D9%85"
-  },
-  {
-    "id": 283,
-    "title": "لاصق سلوتيب شفاف كريستال - 12 قطعة",
-    "category": "اسكوتش، سلوتيب و لاصق اوراق",
-    "price": 35.0,
-    "price_formatted": "35.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17684957745930.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D9%84%D8%A7%D8%B5%D9%82-%D8%B3%D9%84%D9%88%D8%AA%D9%8A%D8%A8-%D8%B4%D9%81%D8%A7%D9%81-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D8%A7%D9%84---12-%D9%82%D8%B7%D8%B9%D8%A9"
   },
   {
     "id": 284,
@@ -5385,8 +5385,8 @@
     "id": 599,
     "title": "شنطة شاسيه فنون روترينج قماش عالية الجودة مقاس 80*60",
     "category": "شنط شاسيه وشاسيهات",
-    "price": 158.0,
-    "price_formatted": "158.00 ج.م",
+    "price": 180.0,
+    "price_formatted": "180.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17273424367448.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B4%D8%A7%D8%B3%D9%8A%D9%87-%D9%81%D9%86%D9%88%D9%86-%D8%B1%D9%88%D8%AA%D8%B1%D9%8A%D9%86%D8%AC-%D9%82%D9%85%D8%A7%D8%B4-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D9%85%D9%82%D8%A7%D8%B3-80*60"
   },
@@ -7552,21 +7552,21 @@
   },
   {
     "id": 840,
-    "title": "استيكة غيار استدلر للاستيكة القلم رقم.55 528",
-    "category": "استيكة",
-    "price": 31.0,
-    "price_formatted": "31.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17219865185803.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D8%A9-%D8%BA%D9%8A%D8%A7%D8%B1-%D8%A7%D8%B3%D8%AA%D8%AF%D9%84%D8%B1-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D8%A9-%D8%A7%D9%84%D9%82%D9%84%D9%85-%D8%B1%D9%82%D9%85-55-528"
-  },
-  {
-    "id": 841,
     "title": "استيكة بيليكان عالية الجودة للاقلام الرصاص رقم.AL30",
     "category": "استيكة",
     "price": 5.5,
     "price_formatted": "5.50 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17219871299019.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D8%A9-%D8%A8%D9%8A%D9%84%D9%8A%D9%83%D8%A7%D9%86-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D9%84%D9%84%D8%A7%D9%82%D9%84%D8%A7%D9%85-%D8%A7%D9%84%D8%B1%D8%B5%D8%A7%D8%B5-%D8%B1%D9%82%D9%85-AL30"
+  },
+  {
+    "id": 841,
+    "title": "استيكة غيار استدلر للاستيكة القلم رقم.55 528",
+    "category": "استيكة",
+    "price": 31.0,
+    "price_formatted": "31.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17219865185803.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D8%A9-%D8%BA%D9%8A%D8%A7%D8%B1-%D8%A7%D8%B3%D8%AA%D8%AF%D9%84%D8%B1-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D8%A9-%D8%A7%D9%84%D9%82%D9%84%D9%85-%D8%B1%D9%82%D9%85-55-528"
   },
   {
     "id": 842,
@@ -7788,8 +7788,8 @@
     "id": 866,
     "title": "استيكة بجراب K-MAX عالية الجودة رقم.WX99588",
     "category": "استيكة",
-    "price": 17.0,
-    "price_formatted": "17.00 ج.م",
+    "price": 19.5,
+    "price_formatted": "19.50 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17448068327275.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D8%A9-%D8%A8%D8%AC%D8%B1%D8%A7%D8%A8-K-MAX-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D8%B1%D9%82%D9%85.WX99588"
   },
@@ -9948,8 +9948,8 @@
     "id": 1106,
     "title": "الوان شمع استدلر نوريس تويستر رقم.221 NWP12 - عالى الجودة - 12 لون",
     "category": "الوان شمع",
-    "price": 240.0,
-    "price_formatted": "240.00 ج.م",
+    "price": 266.0,
+    "price_formatted": "266.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17225324254547.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%A7%D9%84%D9%88%D8%A7%D9%86-%D8%B4%D9%85%D8%B9-%D8%A7%D8%B3%D8%AA%D8%AF%D9%84%D8%B1-%D9%86%D9%88%D8%B1%D9%8A%D8%B3-%D8%AA%D9%88%D9%8A%D8%B3%D8%AA%D8%B1-%D8%B1%D9%82%D9%85-221-NWP12---%D8%B9%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9---12-%D9%84%D9%88%D9%86"
   },
@@ -10477,6 +10477,15 @@
   },
   {
     "id": 1165,
+    "title": "دباسة معدنية K-MAX بسعة 50 ورقة  رقم.9550",
+    "category": "دباسات وخرامات",
+    "price": 150.0,
+    "price_formatted": "150.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17600249159654.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-K-MAX-%D8%A8%D8%B3%D8%B9%D8%A9-50-%D9%88%D8%B1%D9%82%D8%A9%20--%D8%B1%D9%82%D9%85-9550"
+  },
+  {
+    "id": 1166,
     "title": "دباسة معدنية K-MAX بسعة 20 ورقة رقم.9307G",
     "category": "دباسات وخرامات",
     "price": 98.0,
@@ -10485,7 +10494,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-K-MAX-%D8%A8%D8%B3%D8%B9%D8%A9-20-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85.9307G"
   },
   {
-    "id": 1166,
+    "id": 1167,
     "title": "دباسة بلاستيكية K-MAX بسعة 20 ورقة رقم.S2049",
     "category": "دباسات وخرامات",
     "price": 161.0,
@@ -10494,7 +10503,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9-K-MAX-%D8%A8%D8%B3%D8%B9%D8%A9-20-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85-S2049"
   },
   {
-    "id": 1167,
+    "id": 1168,
     "title": "دباسة معدنية K-MAX بسعة 20 ورقة رقم.9308G",
     "category": "دباسات وخرامات",
     "price": 121.0,
@@ -10503,22 +10512,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-K-MAX-%D8%A8%D8%B3%D8%B9%D8%A9-20-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85.9308G"
   },
   {
-    "id": 1168,
+    "id": 1169,
     "title": "خرامة معدنية STD بثقبين عالية الجودة رقم.P-1000",
     "category": "دباسات وخرامات",
     "price": 2346.0,
     "price_formatted": "2,346.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17422970562776.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%AE%D8%B1%D8%A7%D9%85%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-STD-%D8%A8%D8%AB%D9%82%D8%A8%D9%8A%D9%86-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D8%B1%D9%82%D9%85-P-1000"
-  },
-  {
-    "id": 1169,
-    "title": "دباسة معدنية K-MAX بسعة 50 ورقة  رقم.9550",
-    "category": "دباسات وخرامات",
-    "price": 150.0,
-    "price_formatted": "150.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17600249159654.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-K-MAX-%D8%A8%D8%B3%D8%B9%D8%A9-50-%D9%88%D8%B1%D9%82%D8%A9%20--%D8%B1%D9%82%D9%85-9550"
   },
   {
     "id": 1170,
@@ -10648,6 +10648,15 @@
   },
   {
     "id": 1184,
+    "title": "دباسة بلاستيكة Hyunday 3A بسعة 30 ورقة رقم.2810",
+    "category": "دباسات وخرامات",
+    "price": 97.0,
+    "price_formatted": "97.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17422177321815.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D8%A9-Hyunday-3A-%D8%A8%D8%B3%D8%B9%D8%A9-30-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85-2810"
+  },
+  {
+    "id": 1185,
     "title": "خرامة معدنية ام&جى بثقبين 10 ورقة رقم.ABS92716",
     "category": "دباسات وخرامات",
     "price": 65.0,
@@ -10656,7 +10665,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AE%D8%B1%D8%A7%D9%85%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-%D8%A7%D9%85&%D8%AC%D9%89-%D8%A8%D8%AB%D9%82%D8%A8%D9%8A%D9%86-10-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85.ABS92716"
   },
   {
-    "id": 1185,
+    "id": 1186,
     "title": "خرامة معدنية ام&جى بثقبين 20 ورقة رقم.ABS92715",
     "category": "دباسات وخرامات",
     "price": 119.0,
@@ -10665,7 +10674,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AE%D8%B1%D8%A7%D9%85%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-%D8%A7%D9%85&%D8%AC%D9%89-%D8%A8%D8%AB%D9%82%D8%A8%D9%8A%D9%86-20-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85.ABS92715"
   },
   {
-    "id": 1186,
+    "id": 1187,
     "title": "دباسة بلاستيكة Hyunday 3A بسعة 20 ورقة رقم.910",
     "category": "دباسات وخرامات",
     "price": 58.0,
@@ -10674,7 +10683,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D8%A9-Hyunday-3A-%D8%A8%D8%B3%D8%B9%D8%A9-20-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85-910"
   },
   {
-    "id": 1187,
+    "id": 1188,
     "title": "دباسة معدنية ايفرجرين بسعة 25 ورقة 80 جرام رقم.0282",
     "category": "دباسات وخرامات",
     "price": 73.0,
@@ -10683,7 +10692,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-%D8%A7%D9%8A%D9%81%D8%B1%D8%AC%D8%B1%D9%8A%D9%86-%D8%A8%D8%B3%D8%B9%D8%A9-25-%D9%88%D8%B1%D9%82%D8%A9-80-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B1%D9%82%D9%85-0282"
   },
   {
-    "id": 1188,
+    "id": 1189,
     "title": "دباسة بلاستيكية مينى K-MAX بسعة 15 ورقة رقم.9341 - اخضر",
     "category": "دباسات وخرامات",
     "price": 40.0,
@@ -10692,7 +10701,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9-%D9%85%D9%8A%D9%86%D9%89-K-MAX-%D8%A8%D8%B3%D8%B9%D8%A9-15-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85-9341---%D8%A7%D8%AE%D8%B6%D8%B1"
   },
   {
-    "id": 1189,
+    "id": 1190,
     "title": "خرامة معدنية STD بثقبين 10 ورقة رقم.H-10",
     "category": "دباسات وخرامات",
     "price": 101.0,
@@ -10701,7 +10710,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AE%D8%B1%D8%A7%D9%85%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-STD-%D8%A8%D8%AB%D9%82%D8%A8%D9%8A%D9%86-10-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85-H-10"
   },
   {
-    "id": 1190,
+    "id": 1191,
     "title": "خرامة بلاستيكية جاجوار بثقبين عالية الجودة رقم.MOD-60PP",
     "category": "دباسات وخرامات",
     "price": 475.0,
@@ -10710,7 +10719,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AE%D8%B1%D8%A7%D9%85%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9-%D8%AC%D8%A7%D8%AC%D9%88%D8%A7%D8%B1-%D8%A8%D8%AB%D9%82%D8%A8%D9%8A%D9%86-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D8%B1%D9%82%D9%85-MOD-60PP"
   },
   {
-    "id": 1191,
+    "id": 1192,
     "title": "دباسة معدنية ايفرجرين بسعة 25 ورقة 80 جرام رقم.0283",
     "category": "دباسات وخرامات",
     "price": 98.0,
@@ -10719,7 +10728,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-%D8%A7%D9%8A%D9%81%D8%B1%D8%AC%D8%B1%D9%8A%D9%86-%D8%A8%D8%B3%D8%B9%D8%A9-25-%D9%88%D8%B1%D9%82%D8%A9-80-%D8%AC%D8%B1%D8%A7%D9%85-%D8%B1%D9%82%D9%85.0283"
   },
   {
-    "id": 1192,
+    "id": 1193,
     "title": "دباسة كماشة K-MAX بسعة 45 ورقة رقم.9968C",
     "category": "دباسات وخرامات",
     "price": 220.0,
@@ -10728,7 +10737,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D9%83%D9%85%D8%A7%D8%B4%D8%A9-K-MAX-%D8%A8%D8%B3%D8%B9%D8%A9-45-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85.9968C"
   },
   {
-    "id": 1193,
+    "id": 1194,
     "title": "خرامة معدنية STD بثقبين 10 ورقة رقم.H-20",
     "category": "دباسات وخرامات",
     "price": 121.0,
@@ -10737,7 +10746,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AE%D8%B1%D8%A7%D9%85%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-STD-%D8%A8%D8%AB%D9%82%D8%A8%D9%8A%D9%86-10-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85.H-20"
   },
   {
-    "id": 1194,
+    "id": 1195,
     "title": "خرامة معدنية كانكس 20 ورقة رقم.685278",
     "category": "دباسات وخرامات",
     "price": 79.0,
@@ -10746,7 +10755,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AE%D8%B1%D8%A7%D9%85%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-%D9%83%D8%A7%D9%86%D9%83%D8%B3-20-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85.685278"
   },
   {
-    "id": 1195,
+    "id": 1196,
     "title": "دباسة معدنية KW-triO بسعة 40 ورقة رقم.5826",
     "category": "دباسات وخرامات",
     "price": 335.0,
@@ -10755,7 +10764,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9-KW-triO-%D8%A8%D8%B3%D8%B9%D8%A9-40-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85.5826"
   },
   {
-    "id": 1196,
+    "id": 1197,
     "title": "دباسة بلاستيكية مينى بسعة 25 ورقة DL اشكال مختلفة رقم.DL0154 - اخضر فاتح",
     "category": "دباسات وخرامات",
     "price": 54.0,
@@ -10764,22 +10773,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9-%D9%85%D9%8A%D9%86%D9%89-%D8%A8%D8%B3%D8%B9%D8%A9-25-%D9%88%D8%B1%D9%82%D8%A9-DL-%D8%A7%D8%B4%D9%83%D8%A7%D9%84-%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9-%D8%B1%D9%82%D9%85-DL0154---%D8%A7%D8%AE%D8%B6%D8%B1-%D9%81%D8%A7%D8%AA%D8%AD"
   },
   {
-    "id": 1197,
+    "id": 1198,
     "title": "دباسة بلاستيكة بجزء معدنى Hyunday 3A بسعة 30 ورقة رقم.2825",
     "category": "دباسات وخرامات",
     "price": 74.0,
     "price_formatted": "74.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17422174913942.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D8%A9-%D8%A8%D8%AC%D8%B2%D8%A1-%D9%85%D8%B9%D8%AF%D9%86%D9%89-Hyunday-3A-%D8%A8%D8%B3%D8%B9%D8%A9-30-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85-2825"
-  },
-  {
-    "id": 1198,
-    "title": "دباسة بلاستيكة Hyunday 3A بسعة 30 ورقة رقم.2810",
-    "category": "دباسات وخرامات",
-    "price": 97.0,
-    "price_formatted": "97.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17422177321815.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D8%A7%D8%B3%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D8%A9-Hyunday-3A-%D8%A8%D8%B3%D8%B9%D8%A9-30-%D9%88%D8%B1%D9%82%D8%A9-%D8%B1%D9%82%D9%85-2810"
   },
   {
     "id": 1199,
@@ -11188,6 +11188,15 @@
   },
   {
     "id": 1244,
+    "title": "دبوس المونيوم ايفرجرين مقاس 24/6 - 1000 دبوس",
+    "category": "دبابيس دباسة",
+    "price": 6.5,
+    "price_formatted": "6.50 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17682293876364.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D9%88%D8%B3-%D8%A7%D9%84%D9%85%D9%88%D9%86%D9%8A%D9%88%D9%85-%D8%A7%D9%8A%D9%81%D8%B1%D8%AC%D8%B1%D9%8A%D9%86-%D9%85%D9%82%D8%A7%D8%B3-24-6---1000-%D8%AF%D8%A8%D9%88%D8%B3"
+  },
+  {
+    "id": 1245,
     "title": "دبوس المونيوم جاجوار مقاس K13/6-1M اطراف مدببة - 1000 دبوس",
     "category": "دبابيس دباسة",
     "price": 24.0,
@@ -11196,7 +11205,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D9%88%D8%B3-%D8%A7%D9%84%D9%85%D9%88%D9%86%D9%8A%D9%88%D9%85-%D8%AC%D8%A7%D8%AC%D9%88%D8%A7%D8%B1-%D9%85%D9%82%D8%A7%D8%B3-K13-6-1M-%D8%A7%D8%B7%D8%B1%D8%A7%D9%81-%D9%85%D8%AF%D8%A8%D8%A8%D8%A9---1000-%D8%AF%D8%A8%D9%88%D8%B3"
   },
   {
-    "id": 1245,
+    "id": 1246,
     "title": "دبوس المونيوم جاجوار مقاس K13/10-1M اطراف مدببة - 1000 دبوس",
     "category": "دبابيس دباسة",
     "price": 49.0,
@@ -11205,7 +11214,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D9%88%D8%B3-%D8%A7%D9%84%D9%85%D9%88%D9%86%D9%8A%D9%88%D9%85-%D8%AC%D8%A7%D8%AC%D9%88%D8%A7%D8%B1-%D9%85%D9%82%D8%A7%D8%B3-K13-10-1M-%D8%A7%D8%B7%D8%B1%D8%A7%D9%81-%D9%85%D8%AF%D8%A8%D8%A8%D8%A9---1000-%D8%AF%D8%A8%D9%88%D8%B3-"
   },
   {
-    "id": 1246,
+    "id": 1247,
     "title": "دبوس المونيوم جاجوار مقاس K13/8-1M اطراف مدببة - 1000 دبوس",
     "category": "دبابيس دباسة",
     "price": 34.0,
@@ -11214,7 +11223,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D9%88%D8%B3-%D8%A7%D9%84%D9%85%D9%88%D9%86%D9%8A%D9%88%D9%85-%D8%AC%D8%A7%D8%AC%D9%88%D8%A7%D8%B1-%D9%85%D9%82%D8%A7%D8%B3-K13-8-1M-%D8%A7%D8%B7%D8%B1%D8%A7%D9%81-%D9%85%D8%AF%D8%A8%D8%A8%D8%A9---1000-%D8%AF%D8%A8%D9%88%D8%B3"
   },
   {
-    "id": 1247,
+    "id": 1248,
     "title": "دبوس المونيوم جاجوار مقاس 23/10-H اطراف مدببة - 1000 دبوس",
     "category": "دبابيس دباسة",
     "price": 47.0,
@@ -11223,7 +11232,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D9%88%D8%B3-%D8%A7%D9%84%D9%85%D9%88%D9%86%D9%8A%D9%88%D9%85-%D8%AC%D8%A7%D8%AC%D9%88%D8%A7%D8%B1-%D9%85%D9%82%D8%A7%D8%B3-23-10-H-%D8%A7%D8%B7%D8%B1%D8%A7%D9%81-%D9%85%D8%AF%D8%A8%D8%A8%D8%A9---1000-%D8%AF%D8%A8%D9%88%D8%B3"
   },
   {
-    "id": 1248,
+    "id": 1249,
     "title": "دبوس المونيوم كانكس مقاس 10-1M رقم.685278 - 1000 دبوس",
     "category": "دبابيس دباسة",
     "price": 7.0,
@@ -11232,7 +11241,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D9%88%D8%B3-%D8%A7%D9%84%D9%85%D9%88%D9%86%D9%8A%D9%88%D9%85-%D9%83%D8%A7%D9%86%D9%83%D8%B3-%D9%85%D9%82%D8%A7%D8%B3-10-1M-%D8%B1%D9%82%D9%85-685278---1000-%D8%AF%D8%A8%D9%88%D8%B3"
   },
   {
-    "id": 1249,
+    "id": 1250,
     "title": "دبوس المونيوم كانجارو  مقاس K13 رقم.384556 - 1000 دبوس",
     "category": "دبابيس دباسة",
     "price": 29.0,
@@ -11241,7 +11250,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D9%88%D8%B3-%D8%A7%D9%84%D9%85%D9%88%D9%86%D9%8A%D9%88%D9%85-%D9%83%D8%A7%D9%86%D8%AC%D8%A7%D8%B1%D9%88--%D9%85%D9%82%D8%A7%D8%B3-K13-%D8%B1%D9%82%D9%85-384556---1000-%D8%AF%D8%A8%D9%88%D8%B3"
   },
   {
-    "id": 1250,
+    "id": 1251,
     "title": "دبوس المونيوم ام&ج مقاس 24/8-1M رقم.ABS916C7 - 1000 دبوس",
     "category": "دبابيس دباسة",
     "price": 12.0,
@@ -11250,22 +11259,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D9%88%D8%B3-%D8%A7%D9%84%D9%85%D9%88%D9%86%D9%8A%D9%88%D9%85-%D8%A7%D9%85-%D8%AC-%D9%85%D9%82%D8%A7%D8%B3-24-8-1M-%D8%B1%D9%82%D9%85-ABS916C7---1000-%D8%AF%D8%A8%D9%88%D8%B3"
   },
   {
-    "id": 1251,
+    "id": 1252,
     "title": "دبوس المونيوم كانجارو مقاس 23/13-H رقم.384556 - 1000 دبوس",
     "category": "دبابيس دباسة",
     "price": 46.0,
     "price_formatted": "46.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17682291697506.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D9%88%D8%B3-%D8%A7%D9%84%D9%85%D9%88%D9%86%D9%8A%D9%88%D9%85-%D9%83%D8%A7%D9%86%D8%AC%D8%A7%D8%B1%D9%88-%D9%85%D9%82%D8%A7%D8%B3-23-13-H-%D8%B1%D9%82%D9%85-384556---1000-%D8%AF%D8%A8%D9%88%D8%B3"
-  },
-  {
-    "id": 1252,
-    "title": "دبوس المونيوم ايفرجرين مقاس 24/6 - 1000 دبوس",
-    "category": "دبابيس دباسة",
-    "price": 6.5,
-    "price_formatted": "6.50 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17682293876364.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%AF%D8%A8%D9%88%D8%B3-%D8%A7%D9%84%D9%85%D9%88%D9%86%D9%8A%D9%88%D9%85-%D8%A7%D9%8A%D9%81%D8%B1%D8%AC%D8%B1%D9%8A%D9%86-%D9%85%D9%82%D8%A7%D8%B3-24-6---1000-%D8%AF%D8%A8%D9%88%D8%B3"
   },
   {
     "id": 1253,
@@ -11332,6 +11332,15 @@
   },
   {
     "id": 1260,
+    "title": "حافظة حرف U شفافة 40 ميكرون K-MAX حجم A4 عالية الجودة - 100 قطعة",
+    "category": "حوافظ حماية",
+    "price": 110.0,
+    "price_formatted": "110.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17250071471152.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D8%AD%D8%B1%D9%81-U-%D8%B4%D9%81%D8%A7%D9%81%D8%A9-40-%D9%85%D9%8A%D9%83%D8%B1%D9%88%D9%86-K-MAX-%D8%AD%D8%AC%D9%85-A4-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9---100-%D9%82%D8%B7%D8%B9%D8%A9"
+  },
+  {
+    "id": 1261,
     "title": "حافظة حرف U شفافة 110 ميكرون سوفى بلاست حجم A4 عالية الجودة - 50 قطعة",
     "category": "حوافظ حماية",
     "price": 121.0,
@@ -11340,22 +11349,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D8%AD%D8%B1%D9%81-U-%D8%B4%D9%81%D8%A7%D9%81%D8%A9-110-%D9%85%D9%8A%D9%83%D8%B1%D9%88%D9%86-%D8%B3%D9%88%D9%81%D9%89-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA-%D8%AD%D8%AC%D9%85-A4-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9---50-%D9%82%D8%B7%D8%B9%D8%A9"
   },
   {
-    "id": 1261,
+    "id": 1262,
     "title": "فايل كبسولة شكل ظرف 180 ميكرون بريما عالى الجودة - اصفر",
     "category": "حوافظ حماية",
     "price": 7.5,
     "price_formatted": "7.50 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17254762721517.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D9%81%D8%A7%D9%8A%D9%84-%D9%83%D8%A8%D8%B3%D9%88%D9%84%D8%A9-%D8%B4%D9%83%D9%84-%D8%B8%D8%B1%D9%81-180-%D9%85%D9%8A%D9%83%D8%B1%D9%88%D9%86-%D8%A8%D8%B1%D9%8A%D9%85%D8%A7-%D8%B9%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9---%D8%A7%D8%B5%D9%81%D8%B1"
-  },
-  {
-    "id": 1262,
-    "title": "حافظة حرف U شفافة 40 ميكرون K-MAX حجم A4 عالية الجودة - 100 قطعة",
-    "category": "حوافظ حماية",
-    "price": 110.0,
-    "price_formatted": "110.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17250071471152.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D8%AD%D8%B1%D9%81-U-%D8%B4%D9%81%D8%A7%D9%81%D8%A9-40-%D9%85%D9%8A%D9%83%D8%B1%D9%88%D9%86-K-MAX-%D8%AD%D8%AC%D9%85-A4-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9---100-%D9%82%D8%B7%D8%B9%D8%A9"
   },
   {
     "id": 1263,
@@ -11476,21 +11476,21 @@
   },
   {
     "id": 1276,
-    "title": "بلانشيطة K-MAX مزودة بماكينة واحدة عالية الجودة",
-    "category": "حوافظ حماية",
-    "price": 37.5,
-    "price_formatted": "37.50 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17684654336526.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%A8%D9%84%D8%A7%D9%86%D8%B4%D9%8A%D8%B7%D8%A9-K-MAX-%D9%85%D8%B2%D9%88%D8%AF%D8%A9-%D8%A8%D9%85%D8%A7%D9%83%D9%8A%D9%86%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9"
-  },
-  {
-    "id": 1277,
     "title": "حافظة حرف U شفافة 60 ميكرون K-MAX حجم A4 عالية الجودة - 50 قطعة",
     "category": "حوافظ حماية",
     "price": 88.0,
     "price_formatted": "88.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17250072327336.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%AD%D8%A7%D9%81%D8%B8%D8%A9-%D8%AD%D8%B1%D9%81-U-%D8%B4%D9%81%D8%A7%D9%81%D8%A9-60-%D9%85%D9%8A%D9%83%D8%B1%D9%88%D9%86-K-MAX-%D8%AD%D8%AC%D9%85-A4-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9---50-%D9%82%D8%B7%D8%B9%D8%A9"
+  },
+  {
+    "id": 1277,
+    "title": "بلانشيطة K-MAX مزودة بماكينة واحدة عالية الجودة",
+    "category": "حوافظ حماية",
+    "price": 37.5,
+    "price_formatted": "37.50 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17684654336526.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%A8%D9%84%D8%A7%D9%86%D8%B4%D9%8A%D8%B7%D8%A9-K-MAX-%D9%85%D8%B2%D9%88%D8%AF%D8%A9-%D8%A8%D9%85%D8%A7%D9%83%D9%8A%D9%86%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9"
   },
   {
     "id": 1278,
@@ -11737,6 +11737,15 @@
   },
   {
     "id": 1305,
+    "title": "مقص من الفولاذ المقاوم للصدأ عالى الجودة ام&جى 170 مم رقم.ASSN2227",
+    "category": "مستلزمات مكتبية",
+    "price": 31.0,
+    "price_formatted": "31.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17255563677422.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D9%85%D9%82%D8%B5-%D9%85%D9%86-%D8%A7%D9%84%D9%81%D9%88%D9%84%D8%A7%D8%B0-%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%85-%D9%84%D9%84%D8%B5%D8%AF%D8%A3-%D8%B9%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D8%A7%D9%85&%D8%AC%D9%89-170-%D9%85%D9%85-%D8%B1%D9%82%D9%85.ASSN2227"
+  },
+  {
+    "id": 1306,
     "title": "تراى مكتبى معدن شبك 2 دور متحرك K-MAX عالى الجودة بتصميم متين رقم.KMS2015-2",
     "category": "مستلزمات مكتبية",
     "price": 255.0,
@@ -11745,7 +11754,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%AA%D8%B1%D8%A7%D9%89-%D9%85%D9%83%D8%AA%D8%A8%D9%89-%D9%85%D8%B9%D8%AF%D9%86-%D8%B4%D8%A8%D9%83-2-%D8%AF%D9%88%D8%B1-%D9%85%D8%AA%D8%AD%D8%B1%D9%83-K-MAX-%D8%B9%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D8%A8%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D8%AA%D9%8A%D9%86-%D8%B1%D9%82%D9%85.KMS2015-2"
   },
   {
-    "id": 1306,
+    "id": 1307,
     "title": "علبة سلاح كتر عريض عالى الجودة شارب - 10 قطع",
     "category": "مستلزمات مكتبية",
     "price": 16.0,
@@ -11754,7 +11763,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B9%D9%84%D8%A8%D8%A9-%D8%B3%D9%84%D8%A7%D8%AD-%D9%83%D8%AA%D8%B1-%D8%B9%D8%B1%D9%8A%D8%B6-%D8%B9%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D8%B4%D8%A7%D8%B1%D8%A8---10-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1307,
+    "id": 1308,
     "title": "باكو بلاستيك تغليف روكو عالى الجودة 70*100 مم 100 ميكرون - 100 فيلم",
     "category": "مستلزمات مكتبية",
     "price": 43.0,
@@ -11763,7 +11772,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%A8%D8%A7%D9%83%D9%88-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83-%D8%AA%D8%BA%D9%84%D9%8A%D9%81-%D8%B1%D9%88%D9%83%D9%88-%D8%B9%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-70*100-%D9%85%D9%85-100-%D9%85%D9%8A%D9%83%D8%B1%D9%88%D9%86---100-%D9%81%D9%8A%D9%84%D9%85"
   },
   {
-    "id": 1308,
+    "id": 1309,
     "title": "اعواد تجليد بلاستيك A4 امازون مقاس.22",
     "category": "مستلزمات مكتبية",
     "price": 186.0,
@@ -11772,22 +11781,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%A7%D8%B9%D9%88%D8%A7%D8%AF-%D8%AA%D8%AC%D9%84%D9%8A%D8%AF-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83-A4-%D8%A7%D9%85%D8%A7%D8%B2%D9%88%D9%86-%D9%85%D9%82%D8%A7%D8%B3.22"
   },
   {
-    "id": 1309,
+    "id": 1310,
     "title": "قطاعة سلوتيب DL رقم.181",
     "category": "مستلزمات مكتبية",
     "price": 59.0,
     "price_formatted": "59.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17425567271476.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D9%82%D8%B7%D8%A7%D8%B9%D8%A9-%D8%B3%D9%84%D9%88%D8%AA%D9%8A%D8%A8-DL-%D8%B1%D9%82%D9%85.181"
-  },
-  {
-    "id": 1310,
-    "title": "مقص من الفولاذ المقاوم للصدأ عالى الجودة ام&جى 170 مم رقم.ASSN2227",
-    "category": "مستلزمات مكتبية",
-    "price": 31.0,
-    "price_formatted": "31.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17255563677422.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D9%85%D9%82%D8%B5-%D9%85%D9%86-%D8%A7%D9%84%D9%81%D9%88%D9%84%D8%A7%D8%B0-%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%85-%D9%84%D9%84%D8%B5%D8%AF%D8%A3-%D8%B9%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D8%A7%D9%85&%D8%AC%D9%89-170-%D9%85%D9%85-%D8%B1%D9%82%D9%85.ASSN2227"
   },
   {
     "id": 1311,
@@ -12241,6 +12241,15 @@
   },
   {
     "id": 1361,
+    "title": "منظم مكتب معدن Rawy عالى الجودة رقم.R371",
+    "category": "مستلزمات مكتبية",
+    "price": 279.0,
+    "price_formatted": "279.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17402580929160.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D9%85%D9%86%D8%B8%D9%85-%D9%85%D9%83%D8%AA%D8%A8-%D9%85%D8%B9%D8%AF%D9%86-Rawy-%D8%B9%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D8%B1%D9%82%D9%85.R371"
+  },
+  {
+    "id": 1362,
     "title": "لاصق سائل فولاذ الايبوكسى Asmaco",
     "category": "مستلزمات مكتبية",
     "price": 31.0,
@@ -12249,7 +12258,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D9%84%D8%A7%D8%B5%D9%82-%D8%B3%D8%A7%D8%A6%D9%84-%D9%81%D9%88%D9%84%D8%A7%D8%B0-%D8%A7%D9%84%D8%A7%D9%8A%D8%A8%D9%88%D9%83%D8%B3%D9%89-Asmaco-"
   },
   {
-    "id": 1362,
+    "id": 1363,
     "title": "لاصق تثبيت ام&جى 7 مل رقم.AWG97028",
     "category": "مستلزمات مكتبية",
     "price": 14.0,
@@ -12258,7 +12267,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D9%84%D8%A7%D8%B5%D9%82-%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA-%D8%A7%D9%85-%D8%AC%D9%89-7-%D9%85%D9%84-%D8%B1%D9%82%D9%85-AWG97028"
   },
   {
-    "id": 1363,
+    "id": 1364,
     "title": "لاصق مقاوم للحرارة 85 جم Asmaco",
     "category": "مستلزمات مكتبية",
     "price": 36.0,
@@ -12267,7 +12276,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D9%84%D8%A7%D8%B5%D9%82-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D9%84%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D8%A9-85-%D8%AC%D9%85-Asmaco"
   },
   {
-    "id": 1364,
+    "id": 1365,
     "title": "شماعات بلاستيكية Fujian - 12 قطعة",
     "category": "مستلزمات مكتبية",
     "price": 25.0,
@@ -12276,7 +12285,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%85%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9-Fujian---12-%D9%82%D8%B7%D8%B9%D8%A9"
   },
   {
-    "id": 1365,
+    "id": 1366,
     "title": "كارت حجارة بيستون طويلة العمر مقاس C 1.5V عالية الجودة - 2 حجارة",
     "category": "مستلزمات مكتبية",
     "price": 49.0,
@@ -12285,22 +12294,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D9%83%D8%A7%D8%B1%D8%AA-%D8%AD%D8%AC%D8%A7%D8%B1%D8%A9-%D8%A8%D9%8A%D8%B3%D8%AA%D9%88%D9%86-%D8%B7%D9%88%D9%8A%D9%84%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D8%B1-%D9%85%D9%82%D8%A7%D8%B3-C-1-5V-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9---2-%D8%AD%D8%AC%D8%A7%D8%B1%D8%A9"
   },
   {
-    "id": 1366,
+    "id": 1367,
     "title": "قطاعة سلوتيب DL رقم.20031",
     "category": "مستلزمات مكتبية",
     "price": 100.0,
     "price_formatted": "100.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17425568491970.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D9%82%D8%B7%D8%A7%D8%B9%D8%A9-%D8%B3%D9%84%D9%88%D8%AA%D9%8A%D8%A8-DL-%D8%B1%D9%82%D9%85-20031"
-  },
-  {
-    "id": 1367,
-    "title": "منظم مكتب معدن Rawy عالى الجودة رقم.R371",
-    "category": "مستلزمات مكتبية",
-    "price": 279.0,
-    "price_formatted": "279.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17402580929160.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D9%85%D9%86%D8%B8%D9%85-%D9%85%D9%83%D8%AA%D8%A8-%D9%85%D8%B9%D8%AF%D9%86-Rawy-%D8%B9%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D8%B1%D9%82%D9%85.R371"
   },
   {
     "id": 1368,
@@ -12808,6 +12808,15 @@
   },
   {
     "id": 1424,
+    "title": "علبة مشابك بولدوج 25 مم Elucky رقم.23725 - 12 قطعة",
+    "category": "دبابيس ومشابك ورقية",
+    "price": 16.0,
+    "price_formatted": "16.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17284980008485.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D8%B4%D8%A7%D8%A8%D9%83-%D8%A8%D9%88%D9%84%D8%AF%D9%88%D8%AC-25-%D9%85%D9%85-Elucky-%D8%B1%D9%82%D9%85-23725---12-%D9%82%D8%B7%D8%B9%D8%A9"
+  },
+  {
+    "id": 1425,
     "title": "علبة دبوس ملونة مادن - كبس سبورة",
     "category": "دبابيس ومشابك ورقية",
     "price": 7.0,
@@ -12816,7 +12825,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B9%D9%84%D8%A8%D8%A9-%D8%AF%D8%A8%D9%88%D8%B3-%D9%85%D9%84%D9%88%D9%86%D8%A9-%D9%85%D8%A7%D8%AF%D9%86---%D9%83%D8%A8%D8%B3-%D8%B3%D8%A8%D9%88%D8%B1%D8%A9"
   },
   {
-    "id": 1425,
+    "id": 1426,
     "title": "علبة مشابك بولدوج ملونة 41 مم رقم.ABS916Y6 عالية الجودة - 24 قطعة",
     "category": "دبابيس ومشابك ورقية",
     "price": 129.0,
@@ -12825,22 +12834,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D8%B4%D8%A7%D8%A8%D9%83-%D8%A8%D9%88%D9%84%D8%AF%D9%88%D8%AC-%D9%85%D9%84%D9%88%D9%86%D8%A9-41-%D9%85%D9%85-%D8%B1%D9%82%D9%85.ABS916Y6-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9---24-%D9%82%D8%B7%D8%B9%D8%A9"
   },
   {
-    "id": 1426,
+    "id": 1427,
     "title": "علبة دبوس كبس سبورة العطار عالية الجودة - 10 علبة صغيرة",
     "category": "دبابيس ومشابك ورقية",
     "price": 22.5,
     "price_formatted": "22.50 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17285629796778.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%B9%D9%84%D8%A8%D8%A9-%D8%AF%D8%A8%D9%88%D8%B3-%D9%83%D8%A8%D8%B3-%D8%B3%D8%A8%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B9%D8%B7%D8%A7%D8%B1-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9---10-%D8%B9%D9%84%D8%A8%D8%A9-%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9"
-  },
-  {
-    "id": 1427,
-    "title": "علبة مشابك بولدوج 25 مم Elucky رقم.23725 - 12 قطعة",
-    "category": "دبابيس ومشابك ورقية",
-    "price": 16.0,
-    "price_formatted": "16.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17284980008485.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D8%B4%D8%A7%D8%A8%D9%83-%D8%A8%D9%88%D9%84%D8%AF%D9%88%D8%AC-25-%D9%85%D9%85-Elucky-%D8%B1%D9%82%D9%85-23725---12-%D9%82%D8%B7%D8%B9%D8%A9"
   },
   {
     "id": 1428,
@@ -12889,6 +12889,15 @@
   },
   {
     "id": 1433,
+    "title": "علبة مشابك بولدوج 19 مم DL Office بذراع طويل رقم.DL0005 كليب - 12 قطعة",
+    "category": "دبابيس ومشابك ورقية",
+    "price": 11.0,
+    "price_formatted": "11.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17284981602743.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D8%B4%D8%A7%D8%A8%D9%83-%D8%A8%D9%88%D9%84%D8%AF%D9%88%D8%AC-19-%D9%85%D9%85-DL-Office-%D8%A8%D8%B0%D8%B1%D8%A7%D8%B9-%D8%B7%D9%88%D9%8A%D9%84-%D8%B1%D9%82%D9%85.DL0005-%D9%83%D9%84%D9%8A%D8%A8---12-%D9%82%D8%B7%D8%B9%D8%A9"
+  },
+  {
+    "id": 1434,
     "title": "علبة دبوس كبس سبورة ام&جى رقم.ABS92603 مقاوم للصدأ - 100 قطعة",
     "category": "دبابيس ومشابك ورقية",
     "price": 15.5,
@@ -12897,7 +12906,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B9%D9%84%D8%A8%D8%A9-%D8%AF%D8%A8%D9%88%D8%B3-%D9%83%D8%A8%D8%B3-%D8%B3%D8%A8%D9%88%D8%B1%D8%A9-%D8%A7%D9%85&%D8%AC%D9%89-%D8%B1%D9%82%D9%85.ABS92603-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D9%84%D9%84%D8%B5%D8%AF%D8%A3---100-%D9%82%D8%B7%D8%B9%D8%A9"
   },
   {
-    "id": 1434,
+    "id": 1435,
     "title": "علبة دبوس كليبس خرايط ملونة ام&جى رقم.ABS916DQ عالية الجودة - 160 قطعة",
     "category": "دبابيس ومشابك ورقية",
     "price": 25.0,
@@ -12906,22 +12915,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B9%D9%84%D8%A8%D8%A9-%D8%AF%D8%A8%D9%88%D8%B3-%D9%83%D9%84%D9%8A%D8%A8%D8%B3-%D8%AE%D8%B1%D8%A7%D9%8A%D8%B7-%D9%85%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D9%85&%D8%AC%D9%89-%D8%B1%D9%82%D9%85.ABS916DQ-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9---160-%D9%82%D8%B7%D8%B9%D8%A9"
   },
   {
-    "id": 1435,
+    "id": 1436,
     "title": "علبة مشابك بولدوج 19 مم Elucky رقم.23719 - 12 قطعة",
     "category": "دبابيس ومشابك ورقية",
     "price": 10.0,
     "price_formatted": "10.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17284980578587.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D8%B4%D8%A7%D8%A8%D9%83-%D8%A8%D9%88%D9%84%D8%AF%D9%88%D8%AC-19-%D9%85%D9%85-Elucky-%D8%B1%D9%82%D9%85.23719---12-%D9%82%D8%B7%D8%B9%D8%A9"
-  },
-  {
-    "id": 1436,
-    "title": "علبة مشابك بولدوج 19 مم DL Office بذراع طويل رقم.DL0005 كليب - 12 قطعة",
-    "category": "دبابيس ومشابك ورقية",
-    "price": 11.0,
-    "price_formatted": "11.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17284981602743.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%B9%D9%84%D8%A8%D8%A9-%D9%85%D8%B4%D8%A7%D8%A8%D9%83-%D8%A8%D9%88%D9%84%D8%AF%D9%88%D8%AC-19-%D9%85%D9%85-DL-Office-%D8%A8%D8%B0%D8%B1%D8%A7%D8%B9-%D8%B7%D9%88%D9%8A%D9%84-%D8%B1%D9%82%D9%85.DL0005-%D9%83%D9%84%D9%8A%D8%A8---12-%D9%82%D8%B7%D8%B9%D8%A9"
   },
   {
     "id": 1437,
