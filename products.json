@@ -1342,21 +1342,21 @@
   },
   {
     "id": 150,
-    "title": "الة حاسبة الكترونية من كاتيجا رقم.CD-2492 - لون فضى",
-    "category": "الات حاسبة مكتبية",
-    "price": 390.0,
-    "price_formatted": "390.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17680528588910.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%A7%D9%84%D8%A9-%D8%AD%D8%A7%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-%D9%85%D9%86-%D9%83%D8%A7%D8%AA%D9%8A%D8%AC%D8%A7-%D8%B1%D9%82%D9%85-CD-2492---%D9%84%D9%88%D9%86-%D9%81%D8%B6%D9%89"
-  },
-  {
-    "id": 151,
     "title": "الة حاسبة مكتبية من Quick رقم.BM-008 - لون فضى",
     "category": "الات حاسبة مكتبية",
     "price": 240.0,
     "price_formatted": "240.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17680526962779.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%A7%D9%84%D8%A9-%D8%AD%D8%A7%D8%B3%D8%A8%D8%A9-%D9%85%D9%83%D8%AA%D8%A8%D9%8A%D8%A9-%D9%85%D9%86-Quick-%D8%B1%D9%82%D9%85-BM-008---%D9%84%D9%88%D9%86-%D9%81%D8%B6%D9%89"
+  },
+  {
+    "id": 151,
+    "title": "الة حاسبة الكترونية من كاتيجا رقم.CD-2492 - لون فضى",
+    "category": "الات حاسبة مكتبية",
+    "price": 390.0,
+    "price_formatted": "390.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17680528588910.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%A7%D9%84%D8%A9-%D8%AD%D8%A7%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-%D9%85%D9%86-%D9%83%D8%A7%D8%AA%D9%8A%D8%AC%D8%A7-%D8%B1%D9%82%D9%85-CD-2492---%D9%84%D9%88%D9%86-%D9%81%D8%B6%D9%89"
   },
   {
     "id": 152,
@@ -17407,6 +17407,15 @@
   },
   {
     "id": 1935,
+    "title": "شنطة ظهر K-MAX رقم.1701 - اسود",
+    "category": "KMS شنط مدرسية",
+    "price": 650.0,
+    "price_formatted": "650.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17885384992755.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-1701---%D8%A7%D8%B3%D9%88%D8%AF"
+  },
+  {
+    "id": 1936,
     "title": "شنطة ظهر K-MAX رقم.3726 - سيمون فى اخضر",
     "category": "KMS شنط مدرسية",
     "price": 950.0,
@@ -17415,7 +17424,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-3726---%D8%B3%D9%8A%D9%85%D9%88%D9%86-%D9%81%D9%89-%D8%A7%D8%AE%D8%B6%D8%B1"
   },
   {
-    "id": 1936,
+    "id": 1937,
     "title": "شنطة ظهر جلد K-MAX رقم.4238",
     "category": "KMS شنط مدرسية",
     "price": 750.0,
@@ -17424,7 +17433,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-%D8%AC%D9%84%D8%AF-K-MAX-%D8%B1%D9%82%D9%85.4238"
   },
   {
-    "id": 1937,
+    "id": 1938,
     "title": "شنطة ظهر جلد K-MAX رقم.4239",
     "category": "KMS شنط مدرسية",
     "price": 750.0,
@@ -17433,7 +17442,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-%D8%AC%D9%84%D8%AF-K-MAX-%D8%B1%D9%82%D9%85.4239"
   },
   {
-    "id": 1938,
+    "id": 1939,
     "title": "شنطة ظهر K-MAX اسود فى كحلى رقم.202531",
     "category": "KMS شنط مدرسية",
     "price": 1450.0,
@@ -17442,7 +17451,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%A7%D8%B3%D9%88%D8%AF-%D9%81%D9%89-%D9%83%D8%AD%D9%84%D9%89-%D8%B1%D9%82%D9%85-202531"
   },
   {
-    "id": 1939,
+    "id": 1940,
     "title": "شنطة ظهر K-MAX رقم.24113-24 - 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 950.0,
@@ -17451,7 +17460,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-24---3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1940,
+    "id": 1941,
     "title": "شنطة ظهر K-MAX رقم.24113-23 - 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 950.0,
@@ -17460,7 +17469,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-23---3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1941,
+    "id": 1942,
     "title": "شنطة ظهر K-MAX رقم.24113-22 - 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 950.0,
@@ -17469,7 +17478,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-22---3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1942,
+    "id": 1943,
     "title": "شنطة ظهر K-MAX رقم.24113-34 - 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 850.0,
@@ -17478,7 +17487,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-34---3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1943,
+    "id": 1944,
     "title": "شنطة ظهر K-MAX رقم.24113-32 - 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 850.0,
@@ -17487,7 +17496,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-32---3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1944,
+    "id": 1945,
     "title": "شنطة ظهر K-MAX رقم.24113-35 - 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 850.0,
@@ -17496,7 +17505,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-35---3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1945,
+    "id": 1946,
     "title": "شنطة ظهر K-MAX رقم.24113-31 - 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 850.0,
@@ -17505,7 +17514,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-31---3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1946,
+    "id": 1947,
     "title": "شنطة ظهر K-MAX رقم.24113-29 - 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 850.0,
@@ -17514,7 +17523,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-29---3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1947,
+    "id": 1948,
     "title": "شنطة ظهر K-MAX رقم.24113-28 - 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 850.0,
@@ -17523,7 +17532,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-28---3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1948,
+    "id": 1949,
     "title": "شنطة ظهر K-MAX رقم.24113-25- 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 850.0,
@@ -17532,7 +17541,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-25--3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1949,
+    "id": 1950,
     "title": "شنطة ظهر K-MAX رقم.24113-33 - 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 850.0,
@@ -17541,7 +17550,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-33---3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1950,
+    "id": 1951,
     "title": "شنطة ظهر K-MAX رقم.24113-30 - 3 قطع",
     "category": "KMS شنط مدرسية",
     "price": 850.0,
@@ -17550,7 +17559,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-24113-30---3-%D9%82%D8%B7%D8%B9"
   },
   {
-    "id": 1951,
+    "id": 1952,
     "title": "شنطة يد جلد K-MAX رقم.4001",
     "category": "KMS شنط مدرسية",
     "price": 950.0,
@@ -17559,7 +17568,7 @@
     "url": "https://www.kamalsaad.com/product-details/--%D8%B4%D9%86%D8%B7%D8%A9-%D9%8A%D8%AF-%D8%AC%D9%84%D8%AF-K-MAX-%D8%B1%D9%82%D9%85-4001"
   },
   {
-    "id": 1952,
+    "id": 1953,
     "title": "شنطة ظهر K-MAX رقم.S398",
     "category": "KMS شنط مدرسية",
     "price": 1150.0,
@@ -17568,7 +17577,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-S398"
   },
   {
-    "id": 1953,
+    "id": 1954,
     "title": "شنطة ظهر K-MAX رقم.78822",
     "category": "KMS شنط مدرسية",
     "price": 1050.0,
@@ -17577,7 +17586,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-78822"
   },
   {
-    "id": 1954,
+    "id": 1955,
     "title": "شنطة ظهر K-MAX رقم.658 - موف غامق",
     "category": "KMS شنط مدرسية",
     "price": 950.0,
@@ -17586,7 +17595,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-658---%D9%85%D9%88%D9%81-%D8%BA%D8%A7%D9%85%D9%82"
   },
   {
-    "id": 1955,
+    "id": 1956,
     "title": "شنطة ظهر K-MAX رقم.78829 - بيج",
     "category": "KMS شنط مدرسية",
     "price": 1050.0,
@@ -17595,22 +17604,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-78829---%D8%A8%D9%8A%D8%AC"
   },
   {
-    "id": 1956,
+    "id": 1957,
     "title": "شنطة ظهر K-MAX رقم.S479 -بيج",
     "category": "KMS شنط مدرسية",
     "price": 850.0,
     "price_formatted": "850.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17885470498862.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-S479--%D8%A8%D9%8A%D8%AC"
-  },
-  {
-    "id": 1957,
-    "title": "شنطة ظهر K-MAX رقم.1701 - كحلى",
-    "category": "KMS شنط مدرسية",
-    "price": 650.0,
-    "price_formatted": "650.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17885385678880.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%B4%D9%86%D8%B7%D8%A9-%D8%B8%D9%87%D8%B1-K-MAX-%D8%B1%D9%82%D9%85-1701---%D9%83%D8%AD%D9%84%D9%89"
   },
   {
     "id": 1958,
