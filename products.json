@@ -174,8 +174,8 @@
     "id": 20,
     "title": "مسطرة بلاستيكية ملونة كوين اشكال فن رقم.2400 - 20 سم",
     "category": "ادوات هندسية",
-    "price": 3.0,
-    "price_formatted": "3.00 ج.م",
+    "price": 4.0,
+    "price_formatted": "4.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17238837068892.png",
     "url": "https://www.kamalsaad.com/product-details/%D9%85%D8%B3%D8%B7%D8%B1%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9-%D9%85%D9%84%D9%88%D9%86%D8%A9-%D9%83%D9%88%D9%8A%D9%86-%D8%A7%D8%B4%D9%83%D8%A7%D9%84-%D9%81%D9%86-%D8%B1%D9%82%D9%85-2400---20-%D8%B3%D9%85"
   },
@@ -5446,6 +5446,15 @@
   },
   {
     "id": 606,
+    "title": "شبلونة اشكال هندسية شاملة بلاستيكية ملونة",
+    "category": "شبلونات",
+    "price": 14.0,
+    "price_formatted": "14.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17273631848738.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%B4%D8%A8%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D8%B4%D9%83%D8%A7%D9%84-%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9-%D8%B4%D8%A7%D9%85%D9%84%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9-%D9%85%D9%84%D9%88%D9%86%D8%A9"
+  },
+  {
+    "id": 607,
     "title": "شبلونة اشكال بيضاوية ملونة بلاستيكية مشطوفة",
     "category": "شبلونات",
     "price": 32.25,
@@ -5454,7 +5463,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D8%A8%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D8%B4%D9%83%D8%A7%D9%84-%D8%A8%D9%8A%D8%B6%D8%A7%D9%88%D9%8A%D8%A9-%D9%85%D9%84%D9%88%D9%86%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9-%D9%85%D8%B4%D8%B7%D9%88%D9%81%D8%A9"
   },
   {
-    "id": 607,
+    "id": 608,
     "title": "شبلونة رسم دوائر بريما بلاستيكية ملونة عالية الجودة رقم.260",
     "category": "شبلونات",
     "price": 11.5,
@@ -5463,7 +5472,7 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D8%A8%D9%84%D9%88%D9%86%D8%A9-%D8%B1%D8%B3%D9%85-%D8%AF%D9%88%D8%A7%D8%A6%D8%B1-%D8%A8%D8%B1%D9%8A%D9%85%D8%A7-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9-%D9%85%D9%84%D9%88%D9%86%D8%A9-%D8%B9%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9-%D8%B1%D9%82%D9%85-260"
   },
   {
-    "id": 608,
+    "id": 609,
     "title": "شبلونة رسم اشكال بيضاوية بلاستيكية رقم.KJ-003",
     "category": "شبلونات",
     "price": 22.0,
@@ -5472,22 +5481,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D8%A8%D9%84%D9%88%D9%86%D8%A9-%D8%B1%D8%B3%D9%85-%D8%A7%D8%B4%D9%83%D8%A7%D9%84-%D8%A8%D9%8A%D8%B6%D8%A7%D9%88%D9%8A%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9-%D8%B1%D9%82%D9%85-KJ-003"
   },
   {
-    "id": 609,
+    "id": 610,
     "title": "شبلونة رسم فرش من 1-100 رقم.8049",
     "category": "شبلونات",
     "price": 22.0,
     "price_formatted": "22.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17272787124300.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%B4%D8%A8%D9%84%D9%88%D9%86%D8%A9-%D8%B1%D8%B3%D9%85-%D9%81%D8%B1%D8%B4-%D9%85%D9%86-1-100-%D8%B1%D9%82%D9%85-8049"
-  },
-  {
-    "id": 610,
-    "title": "شبلونة اشكال هندسية شاملة بلاستيكية ملونة",
-    "category": "شبلونات",
-    "price": 14.0,
-    "price_formatted": "14.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17273631848738.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%B4%D8%A8%D9%84%D9%88%D9%86%D8%A9-%D8%A7%D8%B4%D9%83%D8%A7%D9%84-%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9-%D8%B4%D8%A7%D9%85%D9%84%D8%A9-%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%8A%D8%A9-%D9%85%D9%84%D9%88%D9%86%D8%A9"
   },
   {
     "id": 611,
@@ -9615,8 +9615,8 @@
     "id": 1069,
     "title": "الوان خشب بريما - 12 لون طويل",
     "category": "الوان خشب",
-    "price": 14.0,
-    "price_formatted": "14.00 ج.م",
+    "price": 16.0,
+    "price_formatted": "16.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17225234419949.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%A7%D9%84%D9%88%D8%A7%D9%86-%D8%AE%D8%B4%D8%A8-%D8%A8%D8%B1%D9%8A%D9%85%D8%A7---12-%D9%84%D9%88%D9%86-%D8%B7%D9%88%D9%8A%D9%84"
   },
@@ -10144,6 +10144,15 @@
   },
   {
     "id": 1128,
+    "title": "الوان فلوماستر Tongol رقم.TD8299-12 12 لون",
+    "category": "الوان فلوماستر",
+    "price": 60.0,
+    "price_formatted": "60.00 ج.م",
+    "image": "https://e-commerce.kamalsaad.com/productItems/17679755905315.jpg",
+    "url": "https://www.kamalsaad.com/product-details/%D8%A7%D9%84%D9%88%D8%A7%D9%86-%D9%81%D9%84%D9%88%D9%85%D8%A7%D8%B3%D8%AA%D8%B1-Tongol-%D8%B1%D9%82%D9%85-TD8299-12-12-%D9%84%D9%88%D9%86"
+  },
+  {
+    "id": 1129,
     "title": "الوان فلوماستر كاريوكا دوبل تيب رقم.41521 - 24 لون سميك",
     "category": "الوان فلوماستر",
     "price": 261.0,
@@ -10152,22 +10161,13 @@
     "url": "https://www.kamalsaad.com/product-details/%D8%A7%D9%84%D9%88%D8%A7%D9%86-%D9%81%D9%84%D9%88%D9%85%D8%A7%D8%B3%D8%AA%D8%B1-%D9%83%D8%A7%D8%B1%D9%8A%D9%88%D9%83%D8%A7-%D8%AF%D9%88%D8%A8%D9%84-%D8%AA%D9%8A%D8%A8-%D8%B1%D9%82%D9%85.41521---24-%D9%84%D9%88%D9%86-%D8%B3%D9%85%D9%8A%D9%83"
   },
   {
-    "id": 1129,
+    "id": 1130,
     "title": "الوان فلوماستر Tongol رقم.TD-8502-24 - 24 لون",
     "category": "الوان فلوماستر",
     "price": 106.0,
     "price_formatted": "106.00 ج.م",
     "image": "https://e-commerce.kamalsaad.com/productItems/17679757065634.jpg",
     "url": "https://www.kamalsaad.com/product-details/%D8%A7%D9%84%D9%88%D8%A7%D9%86-%D9%81%D9%84%D9%88%D9%85%D8%A7%D8%B3%D8%AA%D8%B1-Tongol-%D8%B1%D9%82%D9%85-TD-8502-24---24-%D9%84%D9%88%D9%86"
-  },
-  {
-    "id": 1130,
-    "title": "الوان فلوماستر Tongol رقم.TD8299-12 12 لون",
-    "category": "الوان فلوماستر",
-    "price": 60.0,
-    "price_formatted": "60.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17679755905315.jpg",
-    "url": "https://www.kamalsaad.com/product-details/%D8%A7%D9%84%D9%88%D8%A7%D9%86-%D9%81%D9%84%D9%88%D9%85%D8%A7%D8%B3%D8%AA%D8%B1-Tongol-%D8%B1%D9%82%D9%85-TD8299-12-12-%D9%84%D9%88%D9%86"
   },
   {
     "id": 1131,
@@ -17695,12 +17695,12 @@
   },
   {
     "id": 1967,
-    "title": "اجندة السنة الجديدة 2027 رقم.16 - اسود",
+    "title": "اجندة السنة الجديدة 2027 رقم.16 - بنى",
     "category": "اجندة 2027",
     "price": 48.0,
     "price_formatted": "48.00 ج.م",
-    "image": "https://e-commerce.kamalsaad.com/productItems/17936261521516.png",
-    "url": "https://www.kamalsaad.com/product-details/%D8%A7%D8%AC%D9%86%D8%AF%D8%A9-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-2027-%D8%B1%D9%82%D9%85-16---%D8%A7%D8%B3%D9%88%D8%AF"
+    "image": "https://e-commerce.kamalsaad.com/productItems/17936261194712.png",
+    "url": "https://www.kamalsaad.com/product-details/%D8%A7%D8%AC%D9%86%D8%AF%D8%A9-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-2027-%D8%B1%D9%82%D9%85-16---%D8%A8%D9%86%D9%89"
   },
   {
     "id": 1968,
